@@ -1,95 +1,197 @@
 \input{./input/PREAMBLE}
 %
-\include{./include/CAPA}%titlepage
+\include{./include/CAPA}
 %
 \tableofcontents
 %
 \appendix
 %
 \pagestyle{plain}%plain headings empty
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
+\section{Resumo}\label{Resumo}
 
+
+Este trabalho consiste no estudo de Estatistica das Entregas Expresso em  duas regioes, as variaveis em estudo é o tempo de demora das entregas e também quantas entregas são enregues num determinado tempo ou unidade de tempo [u.t,]. Na primeira situação foram retiradas 120 amostras e 90 nas quantidades entregues num intervalo de tempo [u.t].
+
+Pretende-se fazer um estudo destas duas variaveis aleatorias de forma a responder a questoes empostas e tomar decisoes, recorresndo aos metodos expostos.
+
+Como se trata de amostras recoremos a Inferencia de forma a tirar conclusoes com um grau de incerteza.
+
+Durante este relatorio sera demonstrado resultados e suas interpretações.
+
+No fim apresentado as conclusões que podemos ou sabemos retirar.
+
+
+
+
+
+Inferencia - IC é das amostras poder inferir characteristicas as populações com um certo grau de incerteza pre-determinado.
+
+
+\newpage
+%
 \section{Introdução}\label{Introdução}
-
-balablablablablablabla blablabla.
-
-
-
-
-
-
-
-
-
-dados nao clasificados
-\[s^2 = \frac{1}{n-1}\sum_{i=1}^n (x_i-\bar{x})^2\]
-dados classificados
+%
+Considere o ficheiro “ESTAT1920 TP POR.xlsx” contendo os resultados obtidos num estudo que
+pretende analisar o efeito do fator região num sistema de entregas expresso. Foram analisados
+os registos de 120 entregas, escolhidas aleatoriamente dentro de cada região, e medido o tempo
+de entrega, em unidades de tempo (u.t.). Foram também analisados 90 períodos de tempo de 1
+u.t., escolhidos aleatoriamente, e contabilizado o número de entregas de encomendas nas
+regiões A e B em cada um desses períodos.\\
+\\
+As variáveis consideradas foram:
+\begin{itemize}
+\item[$-$] Regiao (REG): variavel nominal com dois niveis\\
+\qquad Regiao A \\
+\qquad Região B
+\item [$-$] Tempo de entrega (TEE), por encomenda: Variável expressa em u.t.
+\item [$-$] Número de encomendas entregues (NEE) por u.t.
+\end{itemize}
+Admitindo que a amostra disponível é uma amostra aleatória representativa das populações em
+estudo, inclua no relatório a resposta aos seguintes pontos:\\
+\\
+Neste relatorio esta-se a trabalhar com duas  grandezas precisamente o tempo (TEE) e quantidade por u.t (NEE), temos recolhidos 120 regsitos na qual pela regra de sturges $c = int(1+3.3log(n))$, determina-se que é necesario sete [7] Classes.
+Tambem podemos obter a amplitude de cada classe $h=b-a$ e sua marcar $x_i=\frac{a+b}{2}$ \\
+Na prática, considera-se que a qualidade da aproximação é suficientemente boa quando nmaior ou igua 30 \\
+grandes amostras, se n maior ou igaula 30 \\
+\\
+\section{O conjunto de dados}\label{dados}
+Abaixo o resultado da tabela TEE:
+\\
+\\
+\begin{minipage}{0pt}
+	\begin{tabular}{ |c|c|c|c|c|c|c|c|c|c|c| }
+\hline
+$h_i$ & CLASSE & MARCA & $nA_i$ & $nB_i$ & $\frac{nA_i}{h_i}$	 & $\frac{nB_i}{h_i}$ & $f_i(A)$	& $f_i(B)$ & $F_i(A)$ & $F_i(B)$ \\
+\hline
+4 & [5,10[ & 7,5 & 5 & 0 & 1,25 & 0 & 0,0427 & 0 & 0,0427 & 0 \\
+\hline
+4 & [10,15[ & 12,5 & 16 & 19 & 4 & 4,75 & 0,1368 & 0,1583 & 0,1795 & 0,1583 \\
+\hline
+4 & [15,20[ & 17,5 & 40 & 28 & 10 & 7 & 0,3419 & 0,2333 & 0,5214 & 0,3917 \\
+\hline
+4 & [20,25[ & 22,5 & 25 & 41 & 6,25 & 10,25 & 0,2137 & 0,3417 & 0,7350 & 0,7333 \\
+\hline
+4 & [25,30[ & 27,5 & 26 & 22 & 6,5 & 5,5 & 0,2222 & 0,1833 & 0,9573 & 0,9167 \\
+\hline
+4 & [30,35[ & 32,5 & 5 & 8 & 1,25 & 2 & 0,0427 & 0,0667 & 1 & 0,9833 \\
+\hline
+5 & [35,40] & 37,5 & 0 & 2 & 0 & 0,4 & 0 & 0,0167 & 1 & 1 \\
+\hline
+& & & n=117 & n=120 & & & & & & \\
+\hline
+	\end{tabular}
+\end{minipage}
+\\
+\\
+Média aritmetica $\bar{x}$ dados classificados \\
+\begin{minipage}{0pt}
+\[\overline{x} = \frac{1}{n}\sum_{i=1}^cx_in_i = \sum_{i=1}^cx_if_i\]
+\end{minipage}
+\\
+\\
+Recorrendo ao excell obeteve-se os seguintes resultados:
+\\
+\\
+$\bar{x_A}=20,3205$ \\
+$\bar{x_B}=25,5833$ \\
+Variância de uma amostra $s^2$: \\
+dados classificados \\
+\begin{minipage}{0pt}
 \[s^2 = \frac{1}{n-1}\sum_{i=1}^c (x_i-\bar{x})^2 n_i\]
+\end{minipage}
+\\
+\\
+$s_A^2=$ \\
+$s_B^2=$ \\
+\\
 
-desvio padrao\\
+\[\bar{X}=\frac{\sum_{i=1}^nX_i}{n}~\big(\mu;\frac{\delta^2}{n}\big)\]
 
-$s = \sqrt{s^2}$
 
-coeficiente de variacao\\
-\[cv = \frac{s}{\bar{x}}\]
-frequência relativa\\
-\[f_i = \frac{n_i}{n}\]
-\[\sum_{i=1}^cn_i = n\]
-\[\sum_{1=1}^cf_i = 1\]
-frequência acumulada\\
-\[N_i = \sum_{j=1}^in_j\]
-frequencia relativa acumulada\\
-\[F_i = \sum_{j=1}^if_i\]
-Regra de sturges\\
-\[c = int(1+3.3log(n))\]
-Média aritmetica \[\bar{x}\] dados nao classificados\\
-\[\bar{x} = \frac{1}{n}\sum_{1=1}^n\]
-Média aritmetica \[\bar{x}\] dados classificados\\
-\[\bar{x} = \frac{1}{n}\sum_{i=1}^cx_in_i = \sum_{i=1}^cx_if_i\]
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=1]{./image/first.png}
+\includegraphics[scale=0.8]{./image/first.png}
 \caption{TEE}
 \label{TEE}
 \end{figure}\par
 
+
+
+\section{Metodologia Estatística}\label{Metodos}
+\section{Resultados e interpretação}\label{Resultados}
+fazer tabela só com resultados\\
+\section{Conclusões}\label{Conclusão}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\input{./input/EQUACAO}
-%
-\input{./input/DEFINICAO}
+%\input{./input/DEFINICAO}
 %\newpage
 %\input{Equacoes}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Figuras Bibliografia Index
 \listoffigures
-%
 \cite{*}
 \bibliography{./bibliography/Bibliography}
 %outro metodo mas manual\input{Bibliografia}
-%
 %\printindex
-%
 \footnote{Apontamentos Estatistica}
-%
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Variância de uma amostra $s^2$: \\
+%dados nao clasificados \\
+%\begin{minipage}{0pt}
+%\begin{flalign*}
+%s^2 = \frac{1}{n-1}\sum_{i=1}^n (x_i-\bar{x})^2
+%\end{flalign*}
+%\end{minipage}
+%\\
+%\\
+%dados classificados
+%\[s^2 = \frac{1}{n-1}\sum_{i=1}^c (x_i-\bar{x})^2 n_i\]
+%Desvio padrao\\
+%$s = \sqrt{s^2}$
+%coeficiente de variacao\\
+%\[cv = \frac{s}{\bar{x}}\]
+%frequência relativa\\
+%\[f_i = \frac{n_i}{n}\]
+%\[\sum_{i=1}^cn_i = n\]
+%\[\sum_{1=1}^cf_i = 1\]
+%frequência acumulada\\
+%\[N_i = \sum_{j=1}^in_j\]
+%frequencia relativa acumulada\\
+%\[F_i = \sum_{j=1}^if_i\]
+%Média aritmetica \[\bar{x}\] dados nao classificados\\
+%\[\bar{x} = \frac{1}{n}\sum_{1=1}^n\]
+%Média aritmetica \[\bar{x}\] dados classificados\\
+%\[\bar{x} = \frac{1}{n}\sum_{i=1}^cx_in_i = \sum_{i=1}^cx_if_i\]
+%Mediana para dados não classificados em série ordenada
+%\[ M_e= 
+%\begin{cases}
+%    \frac{X_{n/2}+X_{n/2+1}}{2}, & n \quad par \\
+%    \frac{X_{n+1}}{2} & n \quad impar
+%\end{cases}
+%\]
+%Mediana para dados quantitativos continuos classificados
+%\[ M_e=
+%L_k+\left(\frac{0.5-F_{k-1}}{f_k}\right)h_k
+%\]
+%Quartil para dados não classificados em série ordenada
+%\[z_\alpha=x_k\]
+%onde $x_k$ é o maior inteiro menor que $n_{\alpha+1}$
+%Quartil para dados quantitativos contínuos classificados
+%\[z_\alpha=L_k+\left(\frac{\alpha-F_{k-1}}{f_k}\right)h_k\]
+%Momento centrado de ordem r,$m_r$
+%Para dados não classificados:
+%\[m_r=\frac{1}{n}\sum_{i=1}^n(x_i-\bar{x})^r\] 
+%Para dados classificados:
+%\[m_r=\frac{1}{n}\sum_{i=1}^c(x_i-\bar{x})^rn_i\]
+%Coeficiente de assimetria amostral, $a_3$
+%\[a_3=\frac{m_3}{s^3}\]
+%Coeficiente de curtose amostral, $a_4$
+%\[a_4=\frac{m_4}{s^4}\]
 %
-%few lessons \newline \newpage only in text.
-%\pagestyle{headings} %estilo de numeração
-%{\tiny text}{\scriptsize text}{\footnotesize text}{\small text}{\normalize text}{\large text}{\Large text}{\huge text}{Huge text}{\it text}{\bf text}{\tt text}\underline{text}
-%\newline \newpage \linebreak \\[distance]
-%\. \, \; quad qquad hspace{xx cm} vspace{xx cm}
-%{\color{cor}text}
-%\footcite{•}\twocolumn\onecolumn
-% $ formula $ $$ formula $$ \nonumber \\
-%\frac{•}{•} \dfrac{•}{•} \sqrt[•]{•} \binom{}{}
-%\mathbb{NZqRC} \mathcal{texto} \mathfrak{texto}
-%\vert \Vert \leq \geq \neq \to \lim
-%displaystyle \int \sum \prod \cup \cap
-%\longleftarrow \overline{•} \langle
-%\hline \caption \label \centering \ref{Capa}
-%
+%\end{equation}
