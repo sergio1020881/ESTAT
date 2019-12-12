@@ -1,0 +1,286 @@
+\input{./input/PREAMBLE}
+%
+\include{./include/CAPA}
+%
+\tableofcontents
+%
+\appendix
+%
+\pagestyle{plain}%plain headings empty
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\label{Resumo}
+\begin{abstract}
+Este trabalho consiste no estudo de Estatistica das Entregas Expresso em  duas regioes \textbf{A} e \textbf{B}, as variaveis em estudo é o tempo de demora das entregas e a variavel de numero de encomendas entregues num determado unidade de tempo [u.t.]. Nestas situações foram retiradas 120 e 90 amostras nas duas regiões respectivamente.\\
+A primeira é uma distribuição continua, o tempo, e a segunda uma distribuição discreta.
+\\
+As materias abordadas vai ser \textbf{Amostragem}, \textbf{Estimação de parâmetros} e \textbf{Testes de Hipóteses}\\
+\end{abstract}
+%
+\newpage
+\section{Introdução}\label{Introdução}
+%
+As variáveis consideradas foram:
+\begin{itemize}
+\item[$-$] Regiao (REG): variavel nominal com dois niveis\\
+\qquad Regiao A \\
+\qquad Região B
+\item [$-$] Tempo de entrega (TEE), por encomenda: Variável expressa em u.t.
+\item [$-$] Número de encomendas entregues (NEE) por u.t.
+\end{itemize}
+Admitindo que a amostra disponível é uma amostra aleatória representativa das populações.\\
+\\
+Neste relatorio esta-se a trabalhar com duas  grandezas precisamente o tempo (TEE) e quantidade por u.t (NEE), temos recolhidos 120 registos \textbf{TEE} na qual pela regra de sturges $c = int(1+3.3log(n))$, determina-se que é necesario sete [\textbf{7}] classes. \\
+Podemos obter a amplitude de cada classe $h=b-a$ e sua marcar $x_i=\frac{a+b}{2}$. \\
+\section{O conjunto de dados}\label{dados}
+\noindent
+$X_{Ai}$- "Variavel aleatoria que representa o tempo de demora na Regiao \textbf{A} da entrega de uma encomenda Expresso em u.t." \quad i=1,2,3, .....,117 \\
+\qquad$X_{Bi}$- "Variavel aleatoria que representa o tempo de demora na Regiao \textbf{B} da entrega de uma encomenda Expresso em u.t." \quad i=1,2,3, .....,120 \\
+Abaixo o resultado da tabela TEE:\\
+\\
+\begin{minipage}{0pt}
+\begin{tabular}{ |c|c|c|c|c|c|c|c|c|c|c| }
+\hline
+$h_i$ & CLASSE & MARCA & $nA_i$ & $nB_i$ & $\frac{nA_i}{h_i}$	 & $\frac{nB_i}{h_i}$ & $f_i(A)$	& $f_i(B)$ & $F_i(A)$ & $F_i(B)$ \\
+\hline
+4 & [5,10[ & 7,5 & 5 & 0 & 1,25 & 0 & 0,0427 & 0 & 0,0427 & 0 \\
+\hline
+4 & [10,15[ & 12,5 & 16 & 19 & 4 & 4,75 & 0,1368 & 0,1583 & 0,1795 & 0,1583 \\
+\hline
+4 & [15,20[ & 17,5 & 40 & 28 & 10 & 7 & 0,3419 & 0,2333 & 0,5214 & 0,3917 \\
+\hline
+4 & [20,25[ & 22,5 & 25 & 41 & 6,25 & 10,25 & 0,2137 & 0,3417 & 0,7350 & 0,7333 \\
+\hline
+4 & [25,30[ & 27,5 & 26 & 22 & 6,5 & 5,5 & 0,2222 & 0,1833 & 0,9573 & 0,9167 \\
+\hline
+4 & [30,35[ & 32,5 & 5 & 8 & 1,25 & 2 & 0,0427 & 0,0667 & 1 & 0,9833 \\
+\hline
+5 & [35,40] & 37,5 & 0 & 2 & 0 & 0,4 & 0 & 0,0167 & 1 & 1 \\
+\hline
+& & & n=117 & n=120 & & & & & & \\
+\hline
+\end{tabular}
+\end{minipage}
+\\
+\\
+\\
+Recorrendo ao excell obeteve-se os seguintes resultados: \\
+\begin{minipage}{0pt}
+$$\begin{array}{l | l}
+\text{Média aritmetica dados classificados} & \text{Variância de uma amostra dados classificados} \\
+\overline{x} = \frac{1}{n}\sum_{i=1}^cx_in_i = \sum_{i=1}^cx_if_i & s^2 = \frac{1}{n-1}\sum_{i=1}^c (x_i-\bar{x})^2 n_i
+\end{array}$$
+\end{minipage}
+\\
+\begin{minipage}[!b]{0.40\linewidth}
+\begin{tabular}{ l c c }
+\hline
+Estatística & $X_A$ & $X_B$ \\
+\hline
+Mínimo & 7,5 & 12,5\\
+$Q_1$:$1^o$ Quartil & 17,5 & 17,5 \\
+$m_d$: mediana & 17,5 & 22,5\\
+$Q_3$:$3^o$ Quartil & 27,5 & 27,5 \\
+Máximo & 32,5 & 37,5 \\
+\hline
+$\bar{X}$ : Média & 20,3205 & 21,5833 \\
+$s$ : desvio-padrão & 6,1020 & 6,0106\\
+$m_o$: moda & 17,5 & 22,5\\
+\hline
+Tamanho amostral & 117 & 120 \\
+\hline
+\end{tabular}
+\label{Tab:Resulatdos}
+\end{minipage}
+\hspace{2cm}
+\begin{minipage}[!b]{0.40\linewidth}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{./image/TEE.png}
+\caption{TEE}
+\label{TEE}
+\end{figure}
+\end{minipage}
+\newpage
+\noindent
+Na Região \textbf{A} a Média > Moda = Mediana \\ 
+com skew = -0,02876 e kurt = -0,50909 \\
+Na Região \textbf{B} a Média < Moda = Mediana \\
+com skew = 0,14205 e kurt = -212187 \\
+
+\noindent
+Na prática, considera-se que a qualidade da aproximação é suficientemente boa quando $n \geqslant 30$.  \\
+Pode-se tomar que $\delta \cong s$. \\
+%\right{asasas}
+
+
+%
+\begin{minipage}{0pt}
+\[\bar{X}=\frac{\sum_{i=1}^nX_i}{n}\sim N \big(\mu;\frac{\delta^2}{n}\big)\]
+\end{minipage}\\
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent
+Tratamento dos dados da Segunda Variavel Aleatótia \\
+$Y_{Ai}$- "Variavel aleatoria que representa o numero de encomendas entregues pela Expresso na Regiao \textbf{A} por u.t." \quad i=1,2,3, .....,90 \\
+$Y_{Bi}$- "Variavel aleatoria que representa a numero de encomendas entregues pela Expresso na Regiao \textbf{B} por u.t." \quad i=1,2,3, .....,90 \\
+Abaixo o resultado da tabela NEE:\\
+\\
+\begin{minipage}{0pt}
+\begin{tabular}{ |c|c|c|c|c|c|c| }
+\hline
+Enc/u.t & $nA_i$ & $nB_i$ & $f_i(A)$	& $f_i(B)$ & $F_i(A)$ & $F_i(B)$ \\
+\hline
+3 & 6 & 3 & 0,0667 & 0,0333 & 0,0667 & 0,0333 \\
+\hline
+4 & 8 & 6 & 0,0889 & 0,0667 & 0,1556 & 0,1 \\
+\hline
+5 & 19 & 13 & 0,2111 & 0,1444 & 0,3677 & 0,2444 \\
+\hline
+6 & 15 & 7 & 0,1667 & 0,0778 & 0,5333 & 0,3222 \\
+\hline
+7 & 13 & 19 & 0,1444 & 0,2111 & 0,6778 & 0,5333 \\
+\hline
+8 & 11 & 15 & 0,1222 & 0,1667 & 0,8 & 0,7 \\
+\hline
+9 & 6 & 8 & 0,0667 & 0,0889 & 0,8667 & 0,7889 \\
+\hline
+10 & 5 & 11 & 0,0556 & 0,1222 & 0,9222 & 0,9111 \\
+\hline
+11 & 4 & 3 & 0,0444 & 0,0333 & 0,9667 & 0,9444 \\
+\hline
+12 & 0 & 2 & 0 & 0,0222 & 0,9667 & 0,9667 \\
+\hline
+13 & 2 & 1 & 0,0222 & 0,0111 & 0,9889 & 0.9778 \\
+\hline
+14 & 1 & 0 & 0,0111 & 0 & 1 & 0,9778 \\
+\hline
+15 & 0 & 1 & 0 & 0,0111 & 1 & 0,9889 \\
+\hline
+16 & 0 & 1 & 0 & 0,0111 & 1 & 1 \\
+\hline
+\end{tabular}
+\end{minipage}
+\\
+\begin{minipage}[!b]{0.40\linewidth}
+\begin{tabular}{ l c c }
+\hline
+Estatística & $X_A$ & $X_B$ \\
+\hline
+Mínimo & 3 & 3 \\
+$Q_1$:$1^o$ Quartil & 5 & 6 \\
+$m_d$: mediana & 6 & 7 \\
+$Q_3$:$3^o$ Quartil & 8 & 9 \\
+Máximo & 14 & 16 \\
+\hline
+$\bar{X}$ : Média & 6,6889 & 7,5111 \\
+$s$ : desvio-padrão & 2,4062 & 2,5139\\
+$m_o$: moda & 5 & 7\\
+\hline
+Tamanho amostral & 90 & 90 \\
+\hline
+\end{tabular}
+\label{Tab:Resulatdos}
+\end{minipage}
+\hspace{1cm}
+\begin{minipage}[!b]{0.40\linewidth}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{./image/NEE.png}
+\caption{NEE}
+\label{NEE}
+\end{figure}
+\end{minipage}
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+
+
+
+
+
+\section{Metodologia Estatística}\label{Metodos}
+\section{Resultados e interpretação}\label{Resultados}
+fazer tabela só com resultados\\
+\section{Conclusões}\label{Conclusão}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input{./input/EQUACAO}
+%\input{./input/DEFINICAO}
+%\newpage
+%\input{Equacoes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Figuras Bibliografia Index
+\listoffigures
+\cite{*}
+\bibliography{./bibliography/Bibliography}
+%outro metodo mas manual\input{Bibliografia}
+%\printindex
+\footnote{Apontamentos Estatistica}
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\\
+%Desvio padrao\\
+%$s = \sqrt{s^2}$
+%coeficiente de variacao\\
+%\[cv = \frac{s}{\bar{x}}\]
+%Mediana para dados quantitativos continuos classificados
+%\[ M_e=
+%L_k+\left(\frac{0.5-F_{k-1}}{f_k}\right)h_k
+%\]
+%Quartil para dados quantitativos contínuos classificados
+%\[z_\alpha=L_k+\left(\frac{\alpha-F_{k-1}}{f_k}\right)h_k\]
+%Momento centrado de ordem r,$m_r$
+%Para dados classificados:
+%\[m_r=\frac{1}{n}\sum_{i=1}^c(x_i-\bar{x})^rn_i\]
+%Coeficiente de assimetria amostral, $a_3$
+%\[a_3=\frac{m_3}{s^3}\]
+%Coeficiente de curtose amostral, $a_4$
+%\[a_4=\frac{m_4}{s^4}\]
+%frequência relativa\\
+%\[f_i = \frac{n_i}{n}\]
+%\[\sum_{i=1}^cn_i = n\]
+%\[\sum_{1=1}^cf_i = 1\]
+%frequência acumulada\\
+%\[N_i = \sum_{j=1}^in_j\]
+%frequencia relativa acumulada\\
+%\[F_i = \sum_{j=1}^if_i\]
+%Inferencia - IC é das amostras poder inferir characteristicas as populações com um certo grau de incerteza pre-determinado.
+%Mediana para dados não classificados em série ordenada
+%\[ M_e= 
+%\begin{cases}
+%    \frac{X_{n/2}+X_{n/2+1}}{2}, & n \quad par \\
+%    \frac{X_{n+1}}{2} & n \quad impar
+%\end{cases}
+%\]
+%Quartil para dados não classificados em série ordenada
+%\[z_\alpha=x_k\]
+%onde $x_k$ é o maior inteiro menor que $n_{\alpha+1}$
+%Média aritmetica \[\bar{x}\] dados nao classificados\\
+%\[\bar{x} = \frac{1}{n}\sum_{1=1}^n\]
+%Variância de uma amostra $s^2$: \\
+%dados nao clasificados \\
+%\begin{minipage}{0pt}
+%\begin{flalign*}
+%s^2 = \frac{1}{n-1}\sum_{i=1}^n (x_i-\bar{x})^2
+%\end{flalign*}
+%\end{minipage}
+%Para dados não classificados:
+%\[m_r=\frac{1}{n}\sum_{i=1}^n(x_i-\bar{x})^r\]
+%Como se trata de amostras recoremos a Inferencia de forma a tirar conclusoes com um grau de incerteza.\\
+%Durante este relatorio sera demonstrado resultados e suas interpretações.\\
+%No fim apresentado as conclusões que podemos ou sabemos retirar.\\
+%Pretende-se fazer um estudo destas variaveis aleatorias de forma a responder a questoes empostas e tomar decisoes.\\

@@ -1,0 +1,63 @@
+Este trabalho consiste no estudo de Estatistica das Entregas Expresso em  duas regioes, as variaveis em estudo é o tempo de demora das entregas e também quantas entregas são enregues num determinado tempo ou unidade de tempo [u.t,]. Na primeira situação foram retiradas 120 amostras e 90 nas quantidades entregues num intervalo de tempo [u.t].
+
+Pretende-se fazer um estudo destas duas variaveis aleatorias de forma a responder a questoes empostas e tomar decisoes, recorresndo aos metodos expostos.
+
+Como se trata de amostras recoremos a Inferencia de forma a tirar conclusoes com um grau de incerteza.
+
+Durante este relatorio sera demonstrado resultados e suas interpretações.
+
+No fim apresentado as conclusões que podemos ou sabemos retirar.
+
+@Booklet{booklet_1,
+title = {},
+OPTkey = {•},
+OPTauthor = {},
+OPThowpublished = {},
+OPTaddress = {•},
+OPTmonth = {•},
+OPTyear = {},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+@InCollection{incollection_1,
+author = {},
+title = {},
+booktitle = {},
+OPTcrossref = {•},
+OPTkey = {•},
+OPTpages = {•},
+OPTpublisher = {},
+OPTyear = {},
+OPTeditor = {•},
+OPTvolume = {},
+OPTnumber = {•},
+OPTseries = {•},
+OPTtype = {•},
+OPTchapter = {•},
+OPTaddress = {•},
+OPTedition = {•},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+
+
+
+Inferencia - IC é das amostras poder inferir characteristicas as populações com um certo grau de incerteza pre-determinado.
+
+
+Na prática, considera-se que a qualidade da aproximação é suficientemente boa quando nmaior ou igua 30
+grandes amostras, se n maior ou igaula 30
+
+
+
+
+
+
+
+
+
+
+
