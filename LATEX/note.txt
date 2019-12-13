@@ -1,3 +1,5 @@
+Notes:
+
 Este trabalho consiste no estudo de Estatistica das Entregas Expresso em  duas regioes, as variaveis em estudo é o tempo de demora das entregas e também quantas entregas são enregues num determinado tempo ou unidade de tempo [u.t,]. Na primeira situação foram retiradas 120 amostras e 90 nas quantidades entregues num intervalo de tempo [u.t].
 
 Pretende-se fazer um estudo destas duas variaveis aleatorias de forma a responder a questoes empostas e tomar decisoes, recorresndo aos metodos expostos.
