@@ -34,34 +34,37 @@ Neste relatorio esta-se a trabalhar com duas  grandezas precisamente o tempo (TE
 Podemos obter a amplitude de cada classe $h=b-a$ e sua marca $x_i=\frac{a+b}{2}$. \\
 \section{O conjunto de dados}\label{dados}
 \noindent
-$X_{Ai}$- "Variavel aleatoria que representa o tempo de demora na Região \textbf{A} da entrega de uma encomenda Expresso em u.t." \quad i=1,2,3, .....,117 \\
-\qquad$X_{Bi}$- "Variavel aleatoria que representa o tempo de demora na Região \textbf{B} da entrega de uma encomenda Expresso em u.t." \quad i=1,2,3, .....,120 \\
+$X_{i_A}$- "Variavel aleatoria que representa o tempo de demora na Região \textbf{A} da entrega de uma encomenda Expresso em u.t." \quad i=1,2,3, .....,120 \\
+$X_{i_B}$- "Variavel aleatoria que representa o tempo de demora na Região \textbf{B} da entrega de uma encomenda Expresso em u.t." \quad i=1,2,3, .....,120 \\
 Abaixo o resultado da tabela TEE:\\
 \\
 \begin{minipage}{0pt}
 \begin{tabular}{ |c|c|c|c|c|c|c|c|c|c|c| }
 \hline
-$h_i$ & CLASSE & MARCA & $nA_i$ & $nB_i$ & $\frac{nA_i}{h_i}$	 & $\frac{nB_i}{h_i}$ & $f_i(A)$	& $f_i(B)$ & $F_i(A)$ & $F_i(B)$ \\
+$h_i$ & CLASSE & MARCA & $n_{i_A}$ & $n_{i_B}$ & $\frac{n_{i_A}}{h_i}$ & $\frac{n_{i_B}}{h_i}$ & $f_{i_A}$	& $f_{i_B}$ & $F_{i_A}$ & $F_{i_B}$ \\
 \hline
-4 & [5,10[ & 7,5 & 5 & 0 & 1,25 & 0 & 0,0427 & 0 & 0,0427 & 0 \\
+4 & [5,10[ & 7,5 & 8 & 1 & 2 & 0,25 & 0,0667 & 0,0083 & 0,0667 & 0,0083 \\
 \hline
-4 & [10,15[ & 12,5 & 16 & 19 & 4 & 4,75 & 0,1368 & 0,1583 & 0,1795 & 0,1583 \\
+4 & [10,15[ & 12,5 & 16 & 18 & 4 & 4,5 & 0,1333 & 0,15 & 0,2 & 0,1583 \\
 \hline
-4 & [15,20[ & 17,5 & 40 & 28 & 10 & 7 & 0,3419 & 0,2333 & 0,5214 & 0,3917 \\
+4 & [15,20[ & 17,5 & 40 & 28 & 10 & 7 & 0,3333 & 0,2333 & 0,5333 & 0,3917 \\
 \hline
-4 & [20,25[ & 22,5 & 25 & 41 & 6,25 & 10,25 & 0,2137 & 0,3417 & 0,7350 & 0,7333 \\
+4 & [20,25[ & 22,5 & 25 & 41 & 6,25 & 10,25 & 0,2083 & 0,3417 & 0,7417 & 0,7333 \\
 \hline
-4 & [25,30[ & 27,5 & 26 & 22 & 6,5 & 5,5 & 0,2222 & 0,1833 & 0,9573 & 0,9167 \\
+4 & [25,30[ & 27,5 & 26 & 22 & 6,5 & 5,5 & 0,2167 & 0,1833 & 0,9583 & 0,9167 \\
 \hline
-4 & [30,35[ & 32,5 & 5 & 8 & 1,25 & 2 & 0,0427 & 0,0667 & 1 & 0,9833 \\
+4 & [30,35[ & 32,5 & 4 & 8 & 1 & 2 & 0,0333 & 0,0667 & 0,9917 & 0,9833 \\
 \hline
-5 & [35,40] & 37,5 & 0 & 2 & 0 & 0,4 & 0 & 0,0167 & 1 & 1 \\
+5 & [35,40] & 37,5 & 1 & 2 & 0,2 & 0,4 & 0,0083 & 0,0167 & 1 & 1 \\
 \hline
-& & & n=117 & n=120 & & & & & & \\
+& & & n=120 & n=120 & & & & & & \\
 \hline
 \end{tabular}
 \end{minipage}
 \\
+$n_i$ - frequência absoluta
+$f_i$ - frequência relativa
+$F_i$ - frequência acumulada
 \\
 \\
 Recorrendo ao excell obeteve-se os seguintes resultados: \\
@@ -77,17 +80,17 @@ $$\begin{array}{l | l}
 \hline
 Estatística & $X_A$ & $X_B$ \\
 \hline
-Mínimo & 7,5 & 12,5\\
+Mínimo & 7,5 & 7,5\\
 $Q_1$:$1^o$ Quartil & 17,5 & 17,5 \\
 $m_d$: mediana & 17,5 & 22,5\\
 $Q_3$:$3^o$ Quartil & 27,5 & 27,5 \\
-Máximo & 32,5 & 37,5 \\
+Máximo & 37,5 & 37,5 \\
 \hline
-$\bar{X}$ : Média & 20,3205 & 21,5833 \\
-$s$ : desvio-padrão & 6,1020 & 6,0106\\
+$\bar{X}$ : Média & 20,0417 & 21,5417 \\
+$s$ : desvio-padrão & 6,4494 & 6,0909\\
 $m_o$: moda & 17,5 & 22,5\\
 \hline
-Tamanho amostral [$n$] & 117 & 120 \\
+Tamanho amostral [$n$] & 120 & 120 \\
 \hline
 \end{tabular}
 \label{Tab:Resulatdos}
@@ -101,12 +104,12 @@ Tamanho amostral [$n$] & 117 & 120 \\
 \label{TEE}
 \end{figure}
 \end{minipage}
-\newpage
+\\
 \noindent
 Na Região \textbf{A} a Média > Moda = Mediana \\ 
-com skew = -0,02876 e kurt = -0,50909 \\
+com skew = -0,1051 e kurt = -0,4016 \\
 Na Região \textbf{B} a Média < Moda = Mediana \\
-com skew = 0,14205 e kurt = -212187 \\
+com skew = 0,1119 e kurt = -0,1835 \\
 
 \noindent
 Na prática, considera-se que a qualidade da aproximação é suficientemente boa quando $n \geqslant 30$.  \\
@@ -122,20 +125,20 @@ $$\left\lbrace\begin{array}{c}
 \[\bar{X}=\frac{\sum_{i=1}^nX_i}{n}\sim N \big(\mu;\frac{\delta^2}{n}\big)\]
 \end{minipage}\\
 \\
-$\bar{x}_{A_0}$ = 20,3205 \qquad $\bar{x}_{B_0}$ = 21,5833 \\
-$\delta_A$ = 6,1020 \qquad $\delta_B$ = 6,0106\\
+$\bar{x}_{A_0}$ = 20,0417 \qquad $\bar{x}_{B_0}$ = 21,5417 \\
+$\delta_A$ = 6,4494 \qquad $\delta_B$ = 6,0909\\
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \noindent
 Tratamento dos dados da Segunda Variavel Aleatótia \\
-$Y_{Ai}$- "Variavel aleatoria que representa o numero de encomendas entregues pela Expresso na Regiao \textbf{A} por u.t." \quad i=1,2,3, .....,90 \\
-$Y_{Bi}$- "Variavel aleatoria que representa a numero de encomendas entregues pela Expresso na Regiao \textbf{B} por u.t." \quad i=1,2,3, .....,90 \\
+$Y_{i_A}$- "Variavel aleatoria que representa o numero de encomendas entregues pela Expresso na Regiao \textbf{A} por u.t." \quad i=1,2,3, .....,90 \\
+$Y_{i_B}$- "Variavel aleatoria que representa a numero de encomendas entregues pela Expresso na Regiao \textbf{B} por u.t." \quad i=1,2,3, .....,90 \\
 Abaixo o resultado da tabela NEE:\\
 \\
 \begin{minipage}{0pt}
 \begin{tabular}{ |c|c|c|c|c|c|c| }
 \hline
-$Y_i$ & $nA_i$ & $nB_i$ & $f_i(A)$	& $f_i(B)$ & $F_i(A)$ & $F_i(B)$ \\
+$Y_i$ & $n_{i_A}$ & $n_{i_B}$ & $f_{i_A}$ & $f_{i_B}$ & $F_{i_A}$ & $F_{i_B}$ \\
 \hline
 3 & 6 & 3 & 0,0667 & 0,0333 & 0,0667 & 0,0333 \\
 \hline
@@ -179,8 +182,8 @@ $m_d$: mediana & 6 & 7 \\
 $Q_3$:$3^o$ Quartil & 8 & 9 \\
 Máximo & 14 & 16 \\
 \hline
-$\bar{Y}$ : Média & 6,6889 & 7,5111 \\
-$s$ : desvio-padrão & 2,4062 & 2,5139\\
+$\bar{Y}$ : Média & 6,6111 & 7,5111 \\
+$s$ : desvio-padrão & 2,3112 & 2,5140\\
 $m_o$: moda & 5 & 7\\
 \hline
 Tamanho amostral [$n$] & 90 & 90 \\
@@ -188,7 +191,7 @@ Tamanho amostral [$n$] & 90 & 90 \\
 \end{tabular}
 \label{Tab:Resulatdos}
 \end{minipage}
-\hspace{1cm}
+\hspace{1.8cm}
 \begin{minipage}[!b]{0.40\linewidth}
 \begin{figure}[H]
 \centering
@@ -199,6 +202,11 @@ Tamanho amostral [$n$] & 90 & 90 \\
 \end{minipage}
 \\
 \\
+\noindent
+Na Região \textbf{A} a Média > Mediana > Moda \\ 
+com skew = 0.74553  e kurt = 0.49789 \\
+Na Região \textbf{B} a Média > Mediana = Moda \\
+com skew = 0.67659 e kurt = 1.01076 \\
 \begin{minipage}[l]{0pt}
 $$\left\lbrace\begin{array}{c}
 \mu \\
@@ -210,8 +218,8 @@ $$\left\lbrace\begin{array}{c}
 \[\bar{Y}=\frac{\sum_{i=1}^nY_i}{n}\sim N \big(\mu;\frac{\delta^2}{n}\big)\]
 \end{minipage}\\
 \\
-$\bar{y}_{A_0}$ = 6,6889 \qquad $\bar{y}_{B_0}$ = 7,5111 \\
-$\delta_A$ = 2,4062 \qquad $\delta_B$ = 2,5139 \\
+$\bar{y}_{A_0}$ = 6,6111 \qquad $\bar{y}_{B_0}$ = 7,5111 \\
+$\delta_A$ = 2,3112 \qquad $\delta_B$ = 2,5140 \\
 
 
 
@@ -231,19 +239,69 @@ $\delta_A$ = 2,4062 \qquad $\delta_B$ = 2,5139 \\
 Estimação do tempo médio para as regiões \textbf{A} e \textbf{B} com um indice de confiança de 95\%. \\
 \\
 $IC_{1-\alpha}=\left[ A, B\right]$ ; para $1-\alpha = 0.95$, $\alpha=0.05$, $\frac{\alpha}{2}=0.025$ \\
-Zona critica $Z_c=\Phi^{-1}(0.025)\approx1.96$ \\
+Zona critica $Z_c=Z_{1-\frac{\alpha}{2}}=\Phi^{-1}(0.975) \cong 1.96$ \\
 $P\left( A \leqslant \mu \leqslant B \right) = 1-\alpha$ \\
 $\triangle=Z_c\times\frac{\delta}{\sqrt{n}}$ \\
 $A = \bar{x}-\triangle \qquad and \qquad B = \bar{x}+\triangle$ \\
 $\therefore$\\
-$IC_{A_{0.95}}=\left[ \quad 19.2148 \: , \: 21.4262 \quad \right]$ \hspace{1cm} and \hspace{1cm} $IC_{B_{0.95}}=\left[ \quad 20.5078 \: , \: 22.6587 \quad \right]$\\
+$IC_{A_{0.95}}=\left[ \quad 18.8877 \: , \: 21.1956 \quad \right]$ \hspace{1cm} and \hspace{1cm} $IC_{B_{0.95}}=\left[ \quad 20.4519 \: , \: 22.6314 \quad \right]$\\
 \\
 \noindent
 Pode-se estimar que o tempo médio $\left[ \; \mu \; \right]$ de entrega na população  esta dentro dos intervalos acima mencionados com 95\% de confiança.\\
 \subsection{$NEE$}
 \noindent
 Verificar se os dados permitem afirmar que existe diferença significativa entre a \% de períodos com menos de \textbf{6} entregas por u.t. na região \textbf{A} e na região \textbf{B}. Responda com base num intervalo de confiança de 97\%. \\
-P($X_A$ < 6)= ? \quad e \quad P($X_B$ < 6)= ? \quad then \quad $P_A-P_B$ \quad then \quad $IC_{97\%}$
+\\
+Destribuição discreta: \\
+\\
+$\bar{y}_{A_0}$ = 6,6111 \qquad $\bar{y}_{B_0}$ = 7,5111 \qquad $n=90$ \\
+$\delta_A$ = 2,3112 \qquad $\delta_B$ = 2,5140 \\
+\begin{minipage}[l]{0pt}
+$$\left\lbrace\begin{array}{c}
+\mu \\
+\delta \\
+\end{array}\right.$$
+\end{minipage}
+\hspace{3cm} $\Longrightarrow$ \hspace{3cm}
+\begin{minipage}[l]{0pt}
+\[\bar{Y}_{A,B} \sim N \big(\mu_{A,B};\delta^2_{A,B}\big)\]
+\end{minipage}\\
+\\
+\\
+$P(X_A < 6)=P(X_A \leqslant 5) \cong 0,2429 $  \quad e \quad $P(X_B < 6)=P(X_B \leqslant 5) \cong 0,1589$ \\
+\\
+$\hat{P_A}-\hat{P_B} \sim N \left( p_A - p_B ; \frac{p_A\:q_A}{n_A} + \frac{p_B\:q_B}{n_B}\right)$ \hspace{1cm}
+$\triangle=z_{(1-\frac{\alpha}{2})} \;\sqrt{\frac{\hat{p_A} \: \hat{q_A}}{n_A}+\frac{\hat{p_B} \: \hat{q_B}}{n_B}}$ \hspace{1cm} $q=(1-p)$ \\
+\\
+$IC_{97\%}(\hat{P_A}-\hat{P_B})=\left[(\hat{p_A}-\hat{p_B})-\triangle \: ; \: (\hat{p_A}-\hat{p_B})+\triangle \right]$ \\
+\\
+$\hat{P_A}-\hat{P_B} \sim N \left( 0,0839 \; ; \; 0,003528\right)$ \hspace{1cm}
+$z_{(1-\frac{\alpha}{2})}=\phi^{-1}(0,985)=2,1701$ \\
+\\
+Recorrendo a calculadaora casio $fx-9860GII$ : \\
+\\
+$\triangle= InvNorm(0.985)\sqrt{\frac{0.2429(1-0.2429)}{90}+\frac{0.1589(1-0.1589)}{90}}\: \cong \:0.1289$
+\\
+$\therefore$
+\\
+$IC_{97\%}(\hat{P_A}-\hat{P_B})=\left[ \quad 0,0839 \:-\: 0,1289 \: ; \: 0,0839 \:+\: 0,1289 \quad \right] \: = \: \left[ \quad -0,045 \:;\: 0,2128 \quad \right] $ \\
+\\
+A Diferença de proporção é de 0,0839 com uma margen de erro de 0,1289, que é bastante significativo pois pode atingir 21,28\% no limit superior. \\
+\subsection{$TESTE \quad REG$}
+\noindent
+Testar se a região (REG) tem umefeito estatisticamente significativo sobre TEE e NEE ao nível de diferença de médias. Considrere uma significância à sua escolha inferior ou igual a 5\%. Use o critério do valor de prova para fundamentar a decisão.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
