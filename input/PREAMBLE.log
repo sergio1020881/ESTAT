@@ -1,0 +1,1282 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2019.12.13)  16 DEC 2019 08:40
+entering extended mode
+**./PREAMBLE.tex
+(PREAMBLE.tex
+LaTeX2e <2019-10-01> patch level 3
+(/home/computa/.miktex/texmfs/install/tex/latex/base/report.cls
+Document Class: report 2019/10/25 v1.4k Standard LaTeX document class
+(/home/computa/.miktex/texmfs/install/tex/latex/base/size12.clo
+File: size12.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/home/computa/.miktex/texmfs/install/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/home/computa/.miktex/texmfs/install/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2019/11/14 3.36 The Babel package
+
+(/home/computa/.miktex/texmfs/install/tex/generic/babel/switch.def
+File: switch.def 2019/11/14 3.36 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(/home/computa/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/babel-portuges/portuges.ldf
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+(/home/computa/.miktex/texmfs/install/tex/generic/babel/babel.def
+File: babel.def 2019/11/14 3.36 Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen103
+
+(/home/computa/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count90
+)
+Package babel Info: Making " an active character on input line 145.
+))
+(/home/computa/.miktex/texmfs/install/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language78
+LaTeX Info: Redefining \_ on input line 43.
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/babelbib/babelbib.sty
+Package: babelbib 2019/03/11 v1.32 babelbib: multilingual bibliographies (HH)
+\c@btxromaniannumeral=\count91
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/geometry-de/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/home/computa/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(/home/computa/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+(/home/computa/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count92
+\Gm@cntv=\count93
+\c@Gm@tempcnt=\count94
+\Gm@bindingoffset=\dimen104
+\Gm@wd@mp=\dimen105
+\Gm@odd@mp=\dimen106
+\Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
+\Gm@dimlist=\toks18
+
+(/home/computa/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(/home/computa/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/computa/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/computa/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/home/computa/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count95
+\float@exts=\toks19
+\float@box=\box27
+\@float@everytoks=\toks20
+\@floatcapt=\box28
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2019/11/16 v2.17d AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/home/computa/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/home/computa/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen114
+))
+(/home/computa/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen115
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count96
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count97
+\leftroot@=\count98
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen116
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
+\dotsspace@=\muskip10
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
+\tag@help=\toks22
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
+\andhelp@=\toks23
+\eqnshift@=\dimen117
+\alignsep@=\dimen118
+\tagshift@=\dimen119
+\tagwidth@=\dimen120
+\totwidth@=\dimen121
+\lineht@=\dimen122
+\@envbody=\toks24
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2858.
+LaTeX Info: Redefining \] on input line 2859.
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen123
+\ar@mcellbox=\box31
+\extrarowheight=\dimen124
+\NC@list=\toks26
+\extratabsurround=\skip46
+\backup@length=\skip47
+\ar@cellbox=\box32
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2019/10/08 v1.6180339 publication quality tables
+\heavyrulewidth=\dimen125
+\lightrulewidth=\dimen126
+\cmidrulewidth=\dimen127
+\belowrulesep=\dimen128
+\belowbottomsep=\dimen129
+\aboverulesep=\dimen130
+\abovetopsep=\dimen131
+\cmidrulesep=\dimen132
+\cmidrulekern=\dimen133
+\defaultaddspace=\dimen134
+\@cmidla=\count108
+\@cmidlb=\count109
+\@aboverulesep=\dimen135
+\@belowrulesep=\dimen136
+\@thisruleclass=\count110
+\@lastruleclass=\count111
+\@thisrulewidth=\dimen137
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/boxedminipage/boxedminipage.sty
+) (/home/computa/.miktex/texmfs/install/tex/latex/caption/caption.sty
+Package: caption 2019/10/18 v3.4a Customizing captions (AR)
+
+(/home/computa/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+Package: caption3 2019/09/09 v1.8e caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen138
+\captionmargin@=\dimen139
+\captionwidth=\dimen140
+\caption@tempdima=\dimen141
+\caption@indent=\dimen142
+\caption@parindent=\dimen143
+\caption@hangindent=\dimen144
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count112
+\c@continuedfloat=\count113
+Package caption Info: float package is loaded.
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count114
+\cp@tempcnt=\count115
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/easylist/easylist.sty
+Package: easylist 2014/01/11 v.1.4 Numbered items with a single command.
+\el@CounterTotal=\count116
+\el@Scratch=\count117
+\el@ControlCounter=\count118
+\el@CounterLevel=\count119
+\c@List1=\count120
+\c@List2=\count121
+\c@List3=\count122
+\c@List4=\count123
+\c@List5=\count124
+\c@List6=\count125
+\c@List7=\count126
+\c@List8=\count127
+\c@List9=\count128
+\c@List10=\count129
+\el@ProgressiveDimension=\dimen145
+\el@CounterBox=\box33
+\el@ControlBox=\box34
+\el@TotalMargin=\dimen146
+\el@LeftMove=\dimen147
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/esint/esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup9
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/amsfonts/eucal.sty
+Package: eucal 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip48
+\f@nch@O@elh=\skip49
+\f@nch@O@erh=\skip50
+\f@nch@O@olh=\skip51
+\f@nch@O@orh=\skip52
+\f@nch@O@elf=\skip53
+\f@nch@O@erf=\skip54
+\f@nch@O@olf=\skip55
+\f@nch@O@orf=\skip56
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/listings/listings.sty
+\lst@mode=\count130
+\lst@gtempboxa=\box35
+\lst@token=\toks27
+\lst@length=\count131
+\lst@currlwidth=\dimen148
+\lst@column=\count132
+\lst@pos=\count133
+\lst@lostspace=\dimen149
+\lst@width=\dimen150
+\lst@newlines=\count134
+\lst@lineno=\count135
+\lst@maxwidth=\dimen151
+
+(/home/computa/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count136
+\lst@skipnumbers=\count137
+\lst@framebox=\box36
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+(/home/computa/.miktex/texmfs/install/tex/latex/base/makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup11
+\symitalic=\mathgroup12
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/jknappen/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup13
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/microtype/microtype.sty
+Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
+\MT@toks=\toks28
+\MT@count=\count138
+LaTeX Info: Redefining \textls on input line 790.
+\MT@outer@kern=\dimen152
+LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
+\MT@listname@count=\count139
+
+(/home/computa/.miktex/texmfs/install/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 914.
+LaTeX Info: Redefining \lslig on input line 914.
+\MT@outer@space=\skip57
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+(/home/computa/.miktex/texmfs/install/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
+))
+(/home/computa/.miktex/texmfs/install/tex/latex/tools/multicol.sty
+Package: multicol 2019/03/01 v1.8w multicolumn formatting (FMi)
+\c@tracingmulticols=\count140
+\mult@box=\box37
+\multicol@leftmargin=\dimen153
+\c@unbalance=\count141
+\c@collectmore=\count142
+\doublecol@number=\count143
+\multicoltolerance=\count144
+\multicolpretolerance=\count145
+\full@width=\dimen154
+\page@free=\dimen155
+\premulticols=\dimen156
+\postmulticols=\dimen157
+\multicolsep=\skip58
+\multicolbaselineskip=\skip59
+\partial@page=\box38
+\last@line=\box39
+\maxbalancingoverflow=\dimen158
+\mult@rightbox=\box40
+\mult@grightbox=\box41
+\mult@gfirstbox=\box42
+\mult@firstbox=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\c@minrows=\count146
+\c@columnbadness=\count147
+\c@finalcolumnbadness=\count148
+\last@try=\dimen159
+\multicolovershoot=\dimen160
+\multicolundershoot=\dimen161
+\mult@nat@firstbox=\box61
+\colbreak@box=\box62
+\mc@col@check@num=\count149
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/ulem/ulem.sty
+\UL@box=\box63
+\UL@hyphenbox=\box64
+\UL@skip=\skip60
+\UL@hook=\toks29
+\UL@height=\dimen162
+\UL@pe=\count150
+\UL@pixel=\dimen163
+\ULC@box=\box65
+Package: ulem 2012/05/18
+\ULdepth=\dimen164
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip61
+\plpartopsep=\skip62
+\plitemsep=\skip63
+\plparsep=\skip64
+\pl@lab=\toks30
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+
+(/home/computa/.miktex/texmfs/install/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+(/home/computa/.miktex/texmfs/install/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/home/computa/.miktex/texmfs/install/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(/home/computa/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count151
+\rotFPtop=\skip65
+\rotFPbot=\skip66
+\rot@float@box=\box66
+\rot@mess@toks=\toks31
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2019/10/30 v1.5 Multi-file projects (package)
+
+(/home/computa/.miktex/texmfs/install/tex/latex/import/import.sty
+Package: import 2009/03/23  v 5.1
+))
+(/home/computa/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
+Package: subcaption 2019/09/01 v1.3a Sub-captions (AR)
+\c@subfigure=\count152
+\c@subtable=\count153
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/home/computa/.miktex/texmfs/install/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/home/computa/.miktex/texmfs/install/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/tools/theorem.sty
+Package: theorem 2014/10/28 v2.2c Theorem extension package (FMi)
+\theorem@style=\toks32
+\theorem@bodyfont=\toks33
+\theorempreskipamount=\skip67
+\theorempostskipamount=\skip68
+
+(/home/computa/.miktex/texmfs/install/tex/latex/tools/thp.sty
+File: thp.sty 2014/10/28 v2.2c Theorem extension package (FMi)
+))
+(/home/computa/.miktex/texmfs/install/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/home/computa/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks34
+\verbatim@line=\toks35
+\verbatim@in@stream=\read1
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen165
+\WF@size=\dimen166
+\c@WF@wrappedlines=\count154
+\WF@box=\box67
+\WF@everypar=\toks36
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip69
+\enit@outerparindent=\dimen167
+\enit@toks=\toks37
+\enit@inbox=\box68
+\enit@count@id=\count155
+\enitdp@description=\count156
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks38
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
+(/home/computa/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
+(/home/computa/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.
+tex
+\pgfutil@everybye=\toks39
+\pgfutil@tempdima=\dimen168
+\pgfutil@tempdimb=\dimen169
+
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common-
+lists.tex))
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.d
+ef
+\pgfutil@abb=\box69
+ (/home/computa/.miktex/texmfs/install/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2019/08/03 v3.1.4b (3.1.4b)
+))
+Package: pgf 2019/08/03 v3.1.4b (3.1.4b)
+
+(/home/computa/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
+(/home/computa/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.t
+ex
+Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
+
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.te
+x
+\pgfkeys@pathtoks=\toks40
+\pgfkeys@temptoks=\toks41
+
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeysfiltered
+.code.tex
+\pgfkeys@tmptoks=\toks42
+))
+\pgf@x=\dimen170
+\pgf@y=\dimen171
+\pgf@xa=\dimen172
+\pgf@ya=\dimen173
+\pgf@xb=\dimen174
+\pgf@yb=\dimen175
+\pgf@xc=\dimen176
+\pgf@yc=\dimen177
+\pgf@xd=\dimen178
+\pgf@yd=\dimen179
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count157
+\c@pgf@countb=\count158
+\c@pgf@countc=\count159
+\c@pgf@countd=\count160
+\t@pgf@toka=\toks43
+\t@pgf@tokb=\toks44
+\t@pgf@tokc=\toks45
+\pgf@sys@id@count=\count161
+
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2019/08/03 v3.1.4b (3.1.4b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-pdftex
+.def
+File: pgfsys-pdftex.def 2019/08/03 v3.1.4b (3.1.4b)
+
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-common
+-pdf.def
+File: pgfsys-common-pdf.def 2019/08/03 v3.1.4b (3.1.4b)
+)))
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpat
+h.code.tex
+File: pgfsyssoftpath.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfsyssoftpath@smallbuffer@items=\count162
+\pgfsyssoftpath@bigbuffer@items=\count163
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotoco
+l.code.tex
+File: pgfsysprotocol.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)) (/home/computa/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/home/computa/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.t
+ex
+Package: pgfcore 2019/08/03 v3.1.4b (3.1.4b)
+ (/home/computa/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.tex
+
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.tex
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.t
+ex
+\pgfmath@dimen=\dimen180
+\pgfmath@count=\count164
+\pgfmath@box=\box70
+\pgfmath@toks=\toks46
+\pgfmath@stack@operand=\toks47
+\pgfmath@stack@operation=\toks48
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.cod
+e.tex
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.bas
+ic.code.tex)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.tri
+gonometric.code.tex)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ran
+dom.code.tex)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.com
+parison.code.tex)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.bas
+e.code.tex)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.rou
+nd.code.tex)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.mis
+c.code.tex)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.int
+egerarithmetics.code.tex)))
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.te
+x
+\c@pgfmathroundto@lastzeros=\count165
+)) (/home/computa/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.
+code.tex
+File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@picminx=\dimen181
+\pgf@picmaxx=\dimen182
+\pgf@picminy=\dimen183
+\pgf@picmaxy=\dimen184
+\pgf@pathminx=\dimen185
+\pgf@pathmaxx=\dimen186
+\pgf@pathminy=\dimen187
+\pgf@pathmaxy=\dimen188
+\pgf@xx=\dimen189
+\pgf@xy=\dimen190
+\pgf@yx=\dimen191
+\pgf@yy=\dimen192
+\pgf@zx=\dimen193
+\pgf@zy=\dimen194
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathcon
+struct.code.tex
+File: pgfcorepathconstruct.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@path@lastx=\dimen195
+\pgf@path@lasty=\dimen196
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathusa
+ge.code.tex
+File: pgfcorepathusage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@shorten@end@additional=\dimen197
+\pgf@shorten@start@additional=\dimen198
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes.
+code.tex
+File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfpic=\box71
+\pgf@hbox=\box72
+\pgf@layerbox@main=\box73
+\pgf@picture@serial@count=\count166
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphic
+state.code.tex
+File: pgfcoregraphicstate.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgflinewidth=\dimen199
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransfo
+rmations.code.tex
+File: pgfcoretransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@pt@x=\dimen256
+\pgf@pt@y=\dimen257
+\pgf@pt@temp=\dimen258
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.c
+ode.tex
+File: pgfcorequick.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobjects
+.code.tex
+File: pgfcoreobjects.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathpro
+cessing.code.tex
+File: pgfcorepathprocessing.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows.
+code.tex
+File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfarrowsep=\dimen259
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.c
+ode.tex
+File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@max=\dimen260
+\pgf@sys@shading@range@num=\count167
+\pgf@shadingcount=\count168
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.c
+ode.tex
+File: pgfcoreimage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexterna
+l.code.tex
+File: pgfcoreexternal.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfexternal@startupbox=\box74
+))
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers.
+code.tex
+File: pgfcorelayers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretranspa
+rency.code.tex
+File: pgfcoretransparency.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepattern
+s.code.tex
+File: pgfcorepatterns.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.cod
+e.tex
+File: pgfcorerdf.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)))
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes.c
+ode.tex
+File: pgfmoduleshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfnodeparttextbox=\box75
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.cod
+e.tex
+File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versi
+on-0-65.sty
+Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@nodesepstart=\dimen261
+\pgf@nodesepend=\dimen262
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versi
+on-1-18.sty
+Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
+))
+(/home/computa/.miktex/texmfs/install/tex/latex/pgf/utilities/pgffor.sty
+(/home/computa/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.te
+x)) (/home/computa/.miktex/texmfs/install/tex/latex/pgf/math/pgfmath.sty
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex))
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen263
+\pgffor@skip=\dimen264
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
+))
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz.c
+ode.tex
+Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
+
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryploth
+andlers.code.tex
+File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@plot@mark@count=\count169
+\pgfplotmarksize=\dimen265
+)
+\tikz@lastx=\dimen266
+\tikz@lasty=\dimen267
+\tikz@lastxsaved=\dimen268
+\tikz@lastysaved=\dimen269
+\tikz@lastmovetox=\dimen270
+\tikz@lastmovetoy=\dimen271
+\tikzleveldistance=\dimen272
+\tikzsiblingdistance=\dimen273
+\tikz@figbox=\box76
+\tikz@figbox@bg=\box77
+\tikz@tempbox=\box78
+\tikz@tempbox@bg=\box79
+\tikztreelevel=\count170
+\tikznumberofchildren=\count171
+\tikznumberofcurrentchild=\count172
+\tikz@fig@count=\count173
+
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.c
+ode.tex
+File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfmatrixcurrentrow=\count174
+\pgfmatrixcurrentcolumn=\count175
+\pgf@matrix@numberofcolumns=\count176
+)
+\tikz@expandcount=\count177
+
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)))
+(/home/computa/.miktex/texmfs/install/tex/latex/circuitikz/circuitikz.sty
+Package: circuitikz 2019/12/01{} The CircuiTikz circuit drawing package version
+ 0.9.7
+
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryarrow
+s.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfarrowinset=\dimen274
+\pgfarrowlength=\dimen275
+\pgfarrowwidth=\dimen276
+\pgfarrowlinewidth=\dimen277
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibrarybending.code.tex
+File: tikzlibrarybending.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulebending.
+code.tex
+File: pgfmodulebending.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulenonlinea
+rtransformations.code.tex
+File: pgfmodulenonlineartransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgftransformnonlinearflatness=\dimen278
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibrarycurvi
+linear.code.tex
+File: pgflibrarycurvilinear.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@curvilinear@time@a=\dimen279
+\pgf@curvilinear@length@a=\dimen280
+\pgf@curvilinear@length@b=\dimen281
+\pgf@curvilinear@length@c=\dimen282
+\pgf@curvilinear@length@d=\dimen283
+)
+\pgf@arrows@the@rigidity=\dimen284
+))
+(/home/computa/.miktex/texmfs/install/tex/generic/circuitikz/pgfcirc.defines.te
+x
+\pgf@circ@count@a=\count178
+\pgf@circ@count@b=\count179
+\pgf@circ@count@c=\count180
+\pgf@circ@res@up=\dimen285
+\pgf@circ@res@down=\dimen286
+\pgf@circ@res@zero=\dimen287
+\pgf@circ@res@left=\dimen288
+\pgf@circ@res@right=\dimen289
+\pgf@circ@res@other=\dimen290
+\pgf@circ@res@step=\dimen291
+\pgf@circ@res@temp=\dimen292
+\pgfstartlinewidth=\dimen293
+\pgf@circ@Rlen=\dimen294
+\pgf@circ@scaled@Rlen=\dimen295
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircutils.tex)
+(/home/computa/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircshapes.tex)
+
+(/home/computa/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircmonopoles.t
+ex)
+(/home/computa/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircbipoles.tex
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/circuitikz/pgfcirctripoles.te
+x
+\pgf@circ@res@count=\count181
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircquadpoles.t
+ex)
+(/home/computa/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircmultipoles.
+tex)
+(/home/computa/.miktex/texmfs/install/tex/generic/circuitikz/pgfcirclabel.tex)
+(/home/computa/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircvoltage.tex
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/circuitikz/pgfcirccurrent.tex
+) (/home/computa/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircflow.tex)
+(/home/computa/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircpath.tex)
+
+Package circuitikz Warning: You did not specify one of the voltage directions:
+(circuitikz)                  oldvoltagedirection, nooldvoltagedirection, 
+(circuitikz)                  RPvoltages or EFvoltages 
+(circuitikz)                Default directions may have changed, 
+(circuitikz)                please check the manual.
+
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/libraries/shapes/pgflibra
+ryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+))
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryarrow
+s.code.tex
+File: pgflibraryarrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\arrowsize=\dimen296
+))
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/computa/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+\@indexfile=\write4
+\openout4 = `PREAMBLE.idx'.
+
+
+Writing index file PREAMBLE.idx
+(PREAMBLE.aux)
+\openout1 = `PREAMBLE.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 155.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+55.
+ (/home/computa/.miktex/texmfs/install/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 15
+5.
+
+(/home/computa/.miktex/texmfs/install/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+babelbib: Use citation-dependent languages in bibliography
+babelbib: Set bibliography fall-back language to portuguese
+(/home/computa/.miktex/texmfs/install/tex/latex/babelbib/portuguese.bdf
+File: portuguese.bdf 2019/03/11 v1.32 babelbib: multilingual bibliographies (HH
+)
+
+babelbib extension \bibsportuguese added to \extrasportuguese
+babelbib extension \btxifchangecaseoff added to \extrasportuguese
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(42.67912pt, 528.93675pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 695.38536pt, 42.67912pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=528.93675pt
+* \textheight=695.38536pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/home/computa/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count182
+\scratchdimen=\dimen297
+\scratchbox=\box80
+\nofMPsegments=\count183
+\nofMParguments=\count184
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count185
+\MPscratchDim=\dimen298
+\MPnumerator=\count186
+\makeMPintoPDFobject=\count187
+\everyMPtoPDFconversion=\toks52
+)
+(/home/computa/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2019-11-30 v2.9 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count188
+LaTeX Info: Redefining \microtypecontext on input line 155.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+LaTeX Info: Redefining \showhyphens on input line 155.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(/home/computa/.miktex/texmfs/install/tex/latex/microtype/mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+ABD: EveryShipout initializing macros)
+! Emergency stop.
+<*> ./PREAMBLE.tex
+                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 32287 strings out of 492485
+ 725561 string characters out of 3129573
+ 945604 words of memory out of 3000000
+ 36127 multiletter control sequences out of 15000+200000
+ 7630 words of font info for 23 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 60i,1n,70p,415b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

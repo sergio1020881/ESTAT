@@ -1,0 +1,339 @@
+\input{./input/PREAMBLE}
+%
+\include{./include/CAPA}
+%
+\tableofcontents
+%
+\appendix
+%
+\pagestyle{plain}%plain headings empty
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\label{Resumo}
+\begin{abstract}
+Este trabalho consiste no estudo de Estatística das Entregas Expresso em  duas regiões \textbf{A} e \textbf{B}, as variaveis em estudo é o tempo de demora das entregas e a variavel de numero de encomendas entregues num determinado unidade de tempo [u.t.]. Nestas situações foram retiradas 120 e 90 amostras nas duas regiões respectivamente.\\
+A primeira é uma distribuição continua, o tempo, e a segunda uma distribuição discreta.
+\\
+As materias abordadas vai ser \textbf{Amostragem}, \textbf{Estimação de parâmetros} e \textbf{Testes de Hipóteses}\\
+\end{abstract}
+%
+\newpage
+\section{Introdução}\label{Introdução}
+%
+As variáveis consideradas são:
+\begin{itemize}
+\item[$-$] Regiao (REG): variável nominal com dois niveis\\
+\qquad Regiao A \\
+\qquad Região B
+\item [$-$] Tempo de entrega (TEE), por encomenda: Variável expressa em u.t.
+\item [$-$] Número de encomendas entregues (NEE) por u.t.
+\end{itemize}
+Admitindo que a amostra disponível é uma amostra aleatória representativa das populações.\\
+\\
+Neste relatorio esta-se a trabalhar com duas  grandezas precisamente o tempo (TEE) e quantidade por u.t (NEE), temos recolhidos 120 registos \textbf{TEE} na qual pela regra de sturges $c = int(1+3.3log(n))$, determina-se que é necesario sete [\textbf{7}] classes. \\
+Podemos obter a amplitude de cada classe $h=b-a$ e sua marca $x_i=\frac{a+b}{2}$. \\
+\section{O conjunto de dados}\label{dados}
+\noindent
+$X_{i_A}$- "Variavel aleatoria que representa o tempo de demora na Região \textbf{A} da entrega de uma encomenda Expresso em u.t." \quad i=1,2,3, .....,120 \\
+$X_{i_B}$- "Variavel aleatoria que representa o tempo de demora na Região \textbf{B} da entrega de uma encomenda Expresso em u.t." \quad i=1,2,3, .....,120 \\
+Abaixo o resultado da tabela TEE:\\
+\\
+\begin{minipage}{0pt}
+\begin{tabular}{ |c|c|c|c|c|c|c|c|c|c|c| }
+\hline
+$h_i$ & CLASSE & MARCA & $n_{i_A}$ & $n_{i_B}$ & $\frac{n_{i_A}}{h_i}$ & $\frac{n_{i_B}}{h_i}$ & $f_{i_A}$	& $f_{i_B}$ & $F_{i_A}$ & $F_{i_B}$ \\
+\hline
+4 & [5,10[ & 7,5 & 8 & 1 & 2 & 0,25 & 0,0667 & 0,0083 & 0,0667 & 0,0083 \\
+\hline
+4 & [10,15[ & 12,5 & 16 & 18 & 4 & 4,5 & 0,1333 & 0,15 & 0,2 & 0,1583 \\
+\hline
+4 & [15,20[ & 17,5 & 40 & 28 & 10 & 7 & 0,3333 & 0,2333 & 0,5333 & 0,3917 \\
+\hline
+4 & [20,25[ & 22,5 & 25 & 41 & 6,25 & 10,25 & 0,2083 & 0,3417 & 0,7417 & 0,7333 \\
+\hline
+4 & [25,30[ & 27,5 & 26 & 22 & 6,5 & 5,5 & 0,2167 & 0,1833 & 0,9583 & 0,9167 \\
+\hline
+4 & [30,35[ & 32,5 & 4 & 8 & 1 & 2 & 0,0333 & 0,0667 & 0,9917 & 0,9833 \\
+\hline
+5 & [35,40] & 37,5 & 1 & 2 & 0,2 & 0,4 & 0,0083 & 0,0167 & 1 & 1 \\
+\hline
+& & & n=120 & n=120 & & & & & & \\
+\hline
+\end{tabular}
+\end{minipage}
+\\
+$n_i$ - frequência absoluta
+$f_i$ - frequência relativa
+$F_i$ - frequência acumulada
+\\
+\\
+Recorrendo ao excell obeteve-se os seguintes resultados: \\
+\begin{minipage}{0pt}
+$$\begin{array}{l | l}
+\text{Média aritmetica dados classificados} & \text{Variância de uma amostra dados classificados} \\
+\overline{x} = \frac{1}{n}\sum_{i=1}^cx_in_i = \sum_{i=1}^cx_if_i & s^2 = \frac{1}{n-1}\sum_{i=1}^c (x_i-\bar{x})^2 n_i
+\end{array}$$
+\end{minipage}
+\\
+\begin{minipage}[!b]{0.40\linewidth}
+\begin{tabular}{ l c c }
+\hline
+Estatística & $X_A$ & $X_B$ \\
+\hline
+Mínimo & 7,5 & 7,5\\
+$Q_1$:$1^o$ Quartil & 17,5 & 17,5 \\
+$m_d$: mediana & 17,5 & 22,5\\
+$Q_3$:$3^o$ Quartil & 27,5 & 27,5 \\
+Máximo & 37,5 & 37,5 \\
+\hline
+$\bar{X}$ : Média & 20,0417 & 21,5417 \\
+$s$ : desvio-padrão & 6,4494 & 6,0909\\
+$m_o$: moda & 17,5 & 22,5\\
+\hline
+Tamanho amostral [$n$] & 120 & 120 \\
+\hline
+\end{tabular}
+\label{Tab:Resulatdos}
+\end{minipage}
+\hspace{2cm}
+\begin{minipage}[!b]{0.40\linewidth}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{./image/TEE.png}
+\caption{TEE}
+\label{TEE}
+\end{figure}
+\end{minipage}
+\\
+\noindent
+Na Região \textbf{A} a Média > Moda = Mediana \\ 
+com skew = -0,1051 e kurt = -0,4016 \\
+Na Região \textbf{B} a Média < Moda = Mediana \\
+com skew = 0,1119 e kurt = -0,1835 \\
+
+\noindent
+Na prática, considera-se que a qualidade da aproximação é suficientemente boa quando $n \geqslant 30$.  \\
+Pode-se tomar que $\delta \cong s$. \\
+\begin{minipage}[l]{0pt}
+$$\left\lbrace\begin{array}{c}
+\mu \\
+\delta \\
+\end{array}\right.$$
+\end{minipage}
+\hspace{3cm} $\Longrightarrow$ \hspace{3cm}
+\begin{minipage}[l]{0pt}
+\[\bar{X}=\frac{\sum_{i=1}^nX_i}{n}\sim N \big(\mu;\frac{\delta^2}{n}\big)\]
+\end{minipage}\\
+\\
+$\bar{x}_{A_0}$ = 20,0417 \qquad $\bar{x}_{B_0}$ = 21,5417 \\
+$\delta_A$ = 6,4494 \qquad $\delta_B$ = 6,0909\\
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent
+Tratamento dos dados da Segunda Variavel Aleatótia \\
+$Y_{i_A}$- "Variavel aleatoria que representa o numero de encomendas entregues pela Expresso na Regiao \textbf{A} por u.t." \quad i=1,2,3, .....,90 \\
+$Y_{i_B}$- "Variavel aleatoria que representa a numero de encomendas entregues pela Expresso na Regiao \textbf{B} por u.t." \quad i=1,2,3, .....,90 \\
+Abaixo o resultado da tabela NEE:\\
+\\
+\begin{minipage}{0pt}
+\begin{tabular}{ |c|c|c|c|c|c|c| }
+\hline
+$Y_i$ & $n_{i_A}$ & $n_{i_B}$ & $f_{i_A}$ & $f_{i_B}$ & $F_{i_A}$ & $F_{i_B}$ \\
+\hline
+3 & 6 & 3 & 0,0667 & 0,0333 & 0,0667 & 0,0333 \\
+\hline
+4 & 8 & 6 & 0,0889 & 0,0667 & 0,1556 & 0,1 \\
+\hline
+5 & 19 & 13 & 0,2111 & 0,1444 & 0,3677 & 0,2444 \\
+\hline
+6 & 15 & 7 & 0,1667 & 0,0778 & 0,5333 & 0,3222 \\
+\hline
+7 & 13 & 19 & 0,1444 & 0,2111 & 0,6778 & 0,5333 \\
+\hline
+8 & 11 & 15 & 0,1222 & 0,1667 & 0,8 & 0,7 \\
+\hline
+9 & 6 & 8 & 0,0667 & 0,0889 & 0,8667 & 0,7889 \\
+\hline
+10 & 5 & 11 & 0,0556 & 0,1222 & 0,9222 & 0,9111 \\
+\hline
+11 & 4 & 3 & 0,0444 & 0,0333 & 0,9667 & 0,9444 \\
+\hline
+12 & 0 & 2 & 0 & 0,0222 & 0,9667 & 0,9667 \\
+\hline
+13 & 2 & 1 & 0,0222 & 0,0111 & 0,9889 & 0.9778 \\
+\hline
+14 & 1 & 0 & 0,0111 & 0 & 1 & 0,9778 \\
+\hline
+15 & 0 & 1 & 0 & 0,0111 & 1 & 0,9889 \\
+\hline
+16 & 0 & 1 & 0 & 0,0111 & 1 & 1 \\
+\hline
+\end{tabular}
+\end{minipage}
+\\
+\begin{minipage}[!b]{0.40\linewidth}
+\begin{tabular}{ l c c }
+\hline
+Estatística & $Y_A$ & $Y_B$ \\
+\hline
+Mínimo & 3 & 3 \\
+$Q_1$:$1^o$ Quartil & 5 & 6 \\
+$m_d$: mediana & 6 & 7 \\
+$Q_3$:$3^o$ Quartil & 8 & 9 \\
+Máximo & 14 & 16 \\
+\hline
+$\bar{Y}$ : Média & 6,6111 & 7,5111 \\
+$s$ : desvio-padrão & 2,3112 & 2,5140\\
+$m_o$: moda & 5 & 7\\
+\hline
+Tamanho amostral [$n$] & 90 & 90 \\
+\hline
+\end{tabular}
+\label{Tab:Resulatdos}
+\end{minipage}
+\hspace{1.8cm}
+\begin{minipage}[!b]{0.40\linewidth}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{./image/NEE.png}
+\caption{NEE}
+\label{NEE}
+\end{figure}
+\end{minipage}
+\\
+\\
+\noindent
+Na Região \textbf{A} a Média > Mediana > Moda \\ 
+com skew = 0.74553  e kurt = 0.49789 \\
+Na Região \textbf{B} a Média > Mediana = Moda \\
+com skew = 0.67659 e kurt = 1.01076 \\
+\begin{minipage}[l]{0pt}
+$$\left\lbrace\begin{array}{c}
+\mu \\
+\delta \\
+\end{array}\right.$$
+\end{minipage}
+\hspace{3cm} $\Longrightarrow$ \hspace{3cm}
+\begin{minipage}[l]{0pt}
+\[\bar{Y}=\frac{\sum_{i=1}^nY_i}{n}\sim N \big(\mu;\frac{\delta^2}{n}\big)\]
+\end{minipage}\\
+\\
+$\bar{y}_{A_0}$ = 6,6111 \qquad $\bar{y}_{B_0}$ = 7,5111 \\
+$\delta_A$ = 2,3112 \qquad $\delta_B$ = 2,5140 \\
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{Metodologia Estatística}\label{Metodos}
+\noindent
+\subsection{$TEE \quad IC_{95\%}$}
+Estimação do tempo médio para as regiões \textbf{A} e \textbf{B} com um indice de confiança de 95\%. \\
+\\
+$IC_{1-\alpha}=\left[ A, B\right]$ ; para $1-\alpha = 0.95$, $\alpha=0.05$, $\frac{\alpha}{2}=0.025$ \\
+Zona critica $Z_c=Z_{1-\frac{\alpha}{2}}=\Phi^{-1}(0.975) \cong 1.96$ \\
+$P\left( A \leqslant \mu \leqslant B \right) = 1-\alpha$ \\
+$\triangle=Z_c\times\frac{\delta}{\sqrt{n}}$ \\
+$A = \bar{x}-\triangle \qquad and \qquad B = \bar{x}+\triangle$ \\
+$\therefore$\\
+$IC_{A_{0.95}}=\left[ \quad 18.8877 \: , \: 21.1956 \quad \right]$ \hspace{1cm} and \hspace{1cm} $IC_{B_{0.95}}=\left[ \quad 20.4519 \: , \: 22.6314 \quad \right]$\\
+\\
+\noindent
+Pode-se estimar que o tempo médio $\left[ \; \mu \; \right]$ de entrega na população  esta dentro dos intervalos acima mencionados com 95\% de confiança.\\
+\subsection{$NEE$}
+\noindent
+Verificar se os dados permitem afirmar que existe diferença significativa entre a \% de períodos com menos de \textbf{6} entregas por u.t. na região \textbf{A} e na região \textbf{B}. Responda com base num intervalo de confiança de 97\%. \\
+\\
+Destribuição discreta: \\
+\\
+$\bar{y}_{A_0}$ = 6,6111 \qquad $\bar{y}_{B_0}$ = 7,5111 \qquad $n=90$ \\
+$\delta_A$ = 2,3112 \qquad $\delta_B$ = 2,5140 \\
+\begin{minipage}[l]{0pt}
+$$\left\lbrace\begin{array}{c}
+\mu \\
+\delta \\
+\end{array}\right.$$
+\end{minipage}
+\hspace{3cm} $\Longrightarrow$ \hspace{3cm}
+\begin{minipage}[l]{0pt}
+\[\bar{Y}_{A,B} \sim N \big(\mu_{A,B};\delta^2_{A,B}\big)\]
+\end{minipage}\\
+\\
+\\
+$P(X_A < 6)=P(X_A \leqslant 5) \cong 0,2429 $  \quad e \quad $P(X_B < 6)=P(X_B \leqslant 5) \cong 0,1589$ \\
+\\
+$\hat{P_A}-\hat{P_B} \sim N \left( p_A - p_B ; \frac{p_A\:q_A}{n_A} + \frac{p_B\:q_B}{n_B}\right)$ \hspace{1cm}
+$\triangle=z_{(1-\frac{\alpha}{2})} \;\sqrt{\frac{\hat{p_A} \: \hat{q_A}}{n_A}+\frac{\hat{p_B} \: \hat{q_B}}{n_B}}$ \hspace{1cm} $q=(1-p)$ \\
+\\
+$IC_{97\%}(\hat{P_A}-\hat{P_B})=\left[(\hat{p_A}-\hat{p_B})-\triangle \: ; \: (\hat{p_A}-\hat{p_B})+\triangle \right]$ \\
+\\
+$\hat{P_A}-\hat{P_B} \sim N \left( 0,0839 \; ; \; 0,003528\right)$ \hspace{1cm}
+$z_{(1-\frac{\alpha}{2})}=\phi^{-1}(0,985)=2,1701$ \\
+\\
+Recorrendo a calculadaora casio $fx-9860GII$ : \\
+\\
+$\triangle= InvNorm(0.985)\sqrt{\frac{0.2429(1-0.2429)}{90}+\frac{0.1589(1-0.1589)}{90}}\: \cong \:0.1289$
+\\
+$\therefore$
+\\
+$IC_{97\%}(\hat{P_A}-\hat{P_B})=\left[ \quad 0,0839 \:-\: 0,1289 \: ; \: 0,0839 \:+\: 0,1289 \quad \right] \: = \: \left[ \quad -0,045 \:;\: 0,2128 \quad \right] $ \\
+\\
+A Diferença de proporção é de 0,0839 com uma margen de erro de 0,1289, que é bastante significativo pois pode atingir 21,28\% no limit superior. \\
+\subsection{$TESTE \quad REG$}
+\noindent
+Testar se a região (REG) tem umefeito estatisticamente significativo sobre TEE e NEE ao nível de diferença de médias. Considrere uma significância à sua escolha inferior ou igual a 5\%. Use o critério do valor de prova para fundamentar a decisão.\\
+\\
+\begin{minipage}[l]{0pt}
+$$\left\lbrace\begin{array}{l}
+H_0: \quad \mu_A-\mu_B=0 \\
+\\
+H_1: \quad \mu
+\end{array}\right.$$
+\end{minipage}
+\\
+\\
+\\
+\\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\section{Resultados e interpretação}\label{Resultados}
+fazer tabela só com resultados\\
+\section{Conclusões}\label{Conclusão}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input{./input/EQUACAO}
+%\input{./input/DEFINICAO}
+%\newpage
+%\input{Equacoes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Figuras Bibliografia Index
+\listoffigures
+\cite{*}
+\bibliography{./bibliography/Bibliography}
+%outro metodo mas manual\input{Bibliografia}
+%\printindex
+\footnote{Apontamentos Estatistica}
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
