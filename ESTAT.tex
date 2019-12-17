@@ -127,6 +127,25 @@ $$\left\lbrace\begin{array}{c}
 \\
 $\bar{x}_{A_0}$ = 20,0417 \qquad $\bar{x}_{B_0}$ = 21,5417 \\
 $\delta_A$ = 6,4494 \qquad $\delta_B$ = 6,0909\\
+\\
+\\
+
+fazer formulario, e aprofundar moda media e mmediana com valores axactos \\
+\\
+\\
+
+
+
+
+
+
+
+
+
+
+
+
+
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \noindent
@@ -244,7 +263,7 @@ $P\left( A \leqslant \mu \leqslant B \right) = 1-\alpha$ \\
 $\triangle=Z_c\times\frac{\delta}{\sqrt{n}}$ \\
 $A = \bar{x}-\triangle \qquad and \qquad B = \bar{x}+\triangle$ \\
 $\therefore$\\
-$IC_{A_{0.95}}=\left[ \quad 18.8877 \: , \: 21.1956 \quad \right]$ \hspace{1cm} and \hspace{1cm} $IC_{B_{0.95}}=\left[ \quad 20.4519 \: , \: 22.6314 \quad \right]$\\
+$IC_{A_{0.95}}=\left[ \; 18.8877 \: , \: 21.1956 \; \right]$ \hspace{1cm} and \hspace{1cm} $IC_{B_{0.95}}=\left[ \; 20.4519 \: , \: 22.6314 \; \right]$\\
 \\
 \noindent
 Pode-se estimar que o tempo médio $\left[ \; \mu \; \right]$ de entrega na população  esta dentro dos intervalos acima mencionados com 95\% de confiança.\\
@@ -264,11 +283,11 @@ $$\left\lbrace\begin{array}{c}
 \end{minipage}
 \hspace{3cm} $\Longrightarrow$ \hspace{3cm}
 \begin{minipage}[l]{0pt}
-\[\bar{Y}_{A,B} \sim N \big(\mu_{A,B};\delta^2_{A,B}\big)\]
+\[\bar{Y}=\frac{\sum_{i=1}^nY_i}{n}\sim N \big(\mu;\frac{\delta^2}{n}\big)\]
 \end{minipage}\\
 \\
 \\
-$P(X_A < 6)=P(X_A \leqslant 5) \cong 0,2429 $  \quad e \quad $P(X_B < 6)=P(X_B \leqslant 5) \cong 0,1589$ \\
+$P(Y_A < 6)=P(Y_A \leqslant 5)=F_{B_i}(5) \cong 0,3677 $  \quad e \quad $P(Y_B < 6)=P(Y_B \leqslant 5)=F_{B_i} \cong 0,2444$ \\
 \\
 $\hat{P_A}-\hat{P_B} \sim N \left( p_A - p_B ; \frac{p_A\:q_A}{n_A} + \frac{p_B\:q_B}{n_B}\right)$ \hspace{1cm}
 $\triangle=z_{(1-\frac{\alpha}{2})} \;\sqrt{\frac{\hat{p_A} \: \hat{q_A}}{n_A}+\frac{\hat{p_B} \: \hat{q_B}}{n_B}}$ \hspace{1cm} $q=(1-p)$ \\
@@ -284,12 +303,12 @@ $\triangle= InvNorm(0.985)\sqrt{\frac{0.2429(1-0.2429)}{90}+\frac{0.1589(1-0.158
 \\
 $\therefore$
 \\
-$IC_{97\%}(\hat{P_A}-\hat{P_B})=\left[ \quad 0,0839 \:-\: 0,1289 \: ; \: 0,0839 \:+\: 0,1289 \quad \right] \: = \: \left[ \quad -0,045 \:;\: 0,2128 \quad \right] $ \\
+$IC_{97\%}(\hat{P_A}-\hat{P_B})=\left[ \; (\hat{p_A}-\hat{p_B}) \:-\: 0,1289 \: ; \: (\hat{p_A}-\hat{p_B}) \:+\: 0,1289 \; \right]$ \\
 \\
 A Diferença de proporção é de 0,0839 com uma margen de erro de 0,1289, que é bastante significativo pois pode atingir 21,28\% no limit superior. \\
 \subsection{$TESTE \quad REG$}
 \noindent
-Testar se a região (REG) tem umefeito estatisticamente significativo sobre TEE e NEE ao nível de diferença de médias. Considrere uma significância à sua escolha inferior ou igual a 5\%. Use o critério do valor de prova para fundamentar a decisão.\\
+Testar se a região (REG) tem um efeito estatisticamente significativo sobre TEE e NEE ao nível de diferença de médias. Considrere uma significância à sua escolha inferior ou igual a 5\%. Use o critério do valor de prova para fundamentar a decisão.\\
 \\
 \begin{minipage}[l]{0pt}
 $$\left\lbrace\begin{array}{l}
