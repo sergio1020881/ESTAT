@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2019.12.16)  17 DEC 2019 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2019.12.16)  17 DEC 2019 11:35
 entering extended mode
 **./ESTAT.tex
 (ESTAT.tex
@@ -1158,7 +1158,11 @@ File: tikzlibrarypositioning.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 
 
 Writing index file ESTAT.idx
-No file ESTAT.aux.
+(ESTAT.aux (include/CAPA.aux)
+
+LaTeX Warning: Label `Tab:Resulatdos' multiply defined.
+
+)
 \openout1 = `ESTAT.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
@@ -1176,7 +1180,7 @@ LaTeX Font Info:    ... okay on input line 154.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 154.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 54.
-(/home/computa/.miktex/texmfs/install/tex/latex/base/ts1cmr.fd
+ (/home/computa/.miktex/texmfs/install/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 154.
@@ -1359,12 +1363,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 _marca_cor_grande.png>])
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 5.
-
-No file ESTAT.toc.
+ (ESTAT.toc)
 \tf@toc=\write5
 \openout5 = `ESTAT.toc'.
 
-[1
+ [1
 
 
 ]
@@ -1414,231 +1417,256 @@ Overfull \hbox (71.86174pt too wide) in paragraph at lines 102--103
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--113
+Underfull \hbox (badness 10000) in paragraph at lines 36--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--113
+Underfull \hbox (badness 10000) in paragraph at lines 36--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--113
+Underfull \hbox (badness 10000) in paragraph at lines 36--115
 
  []
 
 [1]
-Overfull \hbox (28.40784pt too wide) detected at line 121
+Overfull \hbox (28.40784pt too wide) detected at line 123
 []
  []
 
 
-Overfull \hbox (119.32204pt too wide) detected at line 125
+Overfull \hbox (119.32204pt too wide) detected at line 127
 [] \OT1/ztmcm/m/n/12 = [] \OMS/ztmcm/m/n/12  \OML/ztmcm/m/it/12 N[]\OT1/ztmcm
 /m/n/12 ; [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--130
+Underfull \hbox (badness 10000) in paragraph at lines 116--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--130
+Underfull \hbox (badness 10000) in paragraph at lines 116--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
 
  []
 
 [2 <./image/TEE.png (PNG copy)>]
-Overfull \hbox (258.75786pt too wide) in paragraph at lines 139--172
+Overfull \hbox (258.75786pt too wide) in paragraph at lines 160--193
 [][] 
  []
 
 <./image/NEE.png, id=34, 566.115pt x 255.95625pt>
 File: ./image/NEE.png Graphic file (type png)
 <use ./image/NEE.png>
-Package pdftex.def Info: ./image/NEE.png  used on input line 198.
+Package pdftex.def Info: ./image/NEE.png  used on input line 219.
 (pdftex.def)             Requested size: 283.05681pt x 127.9778pt.
 
-Overfull \hbox (71.48534pt too wide) in paragraph at lines 198--199
+Overfull \hbox (71.48534pt too wide) in paragraph at lines 219--220
  [][] 
  []
 
 
-Overfull \hbox (28.40784pt too wide) detected at line 214
+Overfull \hbox (28.40784pt too wide) detected at line 235
 []
  []
 
 
-Overfull \hbox (116.89789pt too wide) detected at line 218
+Overfull \hbox (116.89789pt too wide) detected at line 239
 [] \OT1/ztmcm/m/n/12 = [] \OMS/ztmcm/m/n/12  \OML/ztmcm/m/it/12 N[]\OT1/ztmcm
 /m/n/12 ; [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--223
+Underfull \hbox (badness 10000) in paragraph at lines 153--244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--223
+Underfull \hbox (badness 10000) in paragraph at lines 153--244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--223
+Underfull \hbox (badness 10000) in paragraph at lines 153--244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--223
+Underfull \hbox (badness 10000) in paragraph at lines 153--244
 
  []
 
 [3 <./image/NEE.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 238.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 259.
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--251
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--251
+Underfull \hbox (badness 10000) in paragraph at lines 260--272
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--251
+Underfull \hbox (badness 10000) in paragraph at lines 260--272
 
  []
 
 
-Overfull \hbox (28.40784pt too wide) detected at line 263
+Underfull \hbox (badness 10000) in paragraph at lines 260--272
+
+ []
+
+
+Overfull \hbox (28.40784pt too wide) detected at line 284
 []
  []
 
 
-Overfull \hbox (116.89789pt too wide) detected at line 267
+Overfull \hbox (116.89789pt too wide) detected at line 288
 [] \OT1/ztmcm/m/n/12 = [] \OMS/ztmcm/m/n/12  \OML/ztmcm/m/it/12 N[]\OT1/ztmcm
 /m/n/12 ; [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--290
+Underfull \hbox (badness 10000) in paragraph at lines 273--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--290
+Underfull \hbox (badness 10000) in paragraph at lines 273--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--290
+Underfull \hbox (badness 10000) in paragraph at lines 273--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--290
+Underfull \hbox (badness 10000) in paragraph at lines 273--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--290
+Underfull \hbox (badness 10000) in paragraph at lines 273--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--290
+Underfull \hbox (badness 10000) in paragraph at lines 273--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--290
+Underfull \hbox (badness 10000) in paragraph at lines 273--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--290
+Underfull \hbox (badness 10000) in paragraph at lines 273--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--290
+Underfull \hbox (badness 10000) in paragraph at lines 273--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--290
+Underfull \hbox (badness 10000) in paragraph at lines 273--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--290
+Underfull \hbox (badness 10000) in paragraph at lines 273--311
 
  []
 
 [4]
-Overfull \hbox (115.62491pt too wide) detected at line 299
+Overfull \hbox (115.62491pt too wide) detected at line 320
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--305
+Underfull \hbox (badness 10000) in paragraph at lines 312--326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--305
+Underfull \hbox (badness 10000) in paragraph at lines 312--326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--305
+Underfull \hbox (badness 10000) in paragraph at lines 312--326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--305
+Underfull \hbox (badness 10000) in paragraph at lines 312--326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--305
+Underfull \hbox (badness 10000) in paragraph at lines 312--326
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 
  []
 
-[6]
-No file ESTAT.lof.
+[6] (ESTAT.lof)
 \tf@lof=\write6
 \openout6 = `ESTAT.lof'.
 
+
 No file ESTAT.bbl.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 337.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 358.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 337.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 358.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 337.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 358.
 [7
 
 ] (ESTAT.aux (include/CAPA.aux))
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 32995 strings out of 492485
- 737729 string characters out of 3129573
- 957763 words of memory out of 3000000
- 36622 multiletter control sequences out of 15000+200000
- 96405 words of font info for 239 fonts, out of 3000000 for 9000
+ 33007 strings out of 492485
+ 737967 string characters out of 3129573
+ 959452 words of memory out of 3000000
+ 36623 multiletter control sequences out of 15000+200000
+ 96535 words of font info for 241 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,11n,72p,437b,350s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/home/computa/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/comp
@@ -1652,7 +1680,7 @@ uta/.miktex/texmfs/install/fonts/type1/urw/symbol/usyr.pfb></home/computa/.mikt
 ex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/computa/.miktex/texmf
 s/install/fonts/type1/urw/times/utmr8a.pfb></home/computa/.miktex/texmfs/instal
 l/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ESTAT.pdf (10 pages, 207411 bytes).
+Output written on ESTAT.pdf (10 pages, 208554 bytes).
 PDF statistics:
  84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
