@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2019.12.17)  21 DEC 2019 14:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2019.12.17)  21 DEC 2019 15:11
 entering extended mode
 **./ESTAT.tex
 (ESTAT.tex
@@ -1476,7 +1476,10 @@ Package: l3keys2e 2019-10-11 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_result_box=\box111
 \l__siunitx_table_number_align_skip=\skip84
 \l__siunitx_table_text_align_skip=\skip85
-) (/home/sergio/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
+ (/home/sergio/.miktex/texmfs/install/tex/latex/translator/translator.sty
+Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
+))
+(/home/sergio/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip86
 \enit@outerparindent=\dimen372
@@ -1977,6 +1980,10 @@ an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to
 loading the todonotes package. on input line 166.
 
 
+(/home/sergio/.miktex/texmfs/install/tex/latex/translator/translator-basic-dict
+ionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
 (/home/sergio/.miktex/texmfs/install/tex/latex/siunitx/siunitx-abbreviations.cf
 g
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
@@ -2320,28 +2327,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 362--363
 \tf@lof=\write7
 \openout7 = `ESTAT.lof'.
 
- (ESTAT.bbl [8
 
-]
-babelbib: Using the BibTeX style's default font for `name'.
-babelbib: Using the BibTeX style's default font for `lastname'.
-babelbib: Using the BibTeX style's default font for `title'.
-babelbib: Using the BibTeX style's default font for `jtitle'.
-babelbib: Using the BibTeX style's default font for `etal'.
-babelbib: Using the BibTeX style's default font for `journal'.
-babelbib: Using the BibTeX style's default font for `volume'.
-babelbib: Using the BibTeX style's default font for `ISBN'.
-babelbib: Using the BibTeX style's default font for `ISSN'.
-babelbib: Using the BibTeX style's default font for `url'.
-babelbib: Using the BibTeX style's default font for `numeral'.
-)
+No file ESTAT.bbl.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 380.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 380.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 380.
- [9
+[8
 
 ] (ESTAT.aux (include/CAPA.aux))
 
@@ -2349,11 +2343,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 56418 strings out of 492484
- 1196939 string characters out of 3127542
- 1516862 words of memory out of 3000000
- 59751 multiletter control sequences out of 15000+200000
- 631243 words of font info for 279 fonts, out of 3000000 for 9000
+ 56533 strings out of 492484
+ 1199649 string characters out of 3127542
+ 1518816 words of memory out of 3000000
+ 59869 multiletter control sequences out of 15000+200000
+ 629081 words of font info for 274 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,11n,85p,1473b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/home/sergio/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/sergi
@@ -2367,9 +2361,9 @@ tex/texmfs/install/fonts/type1/urw/symbol/usyr.pfb></home/sergio/.miktex/texmfs
 /install/fonts/type1/urw/times/utmb8a.pfb></home/sergio/.miktex/texmfs/install/
 fonts/type1/urw/times/utmr8a.pfb></home/sergio/.miktex/texmfs/install/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on ESTAT.pdf (12 pages, 220959 bytes).
+Output written on ESTAT.pdf (11 pages, 219243 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 111 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 57980 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 53884 words of extra memory for PDF output out of 61914 (max. 10000000)
 
