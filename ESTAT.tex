@@ -105,11 +105,38 @@ Tamanho amostral [$n$] & 120 & 120 \\
 \end{figure}
 \end{minipage}
 \\
-\noindent 
-Na Região \textbf{A} a Média > Moda = Mediana \\ 
-com skew = -0,1051 e kurt = -0,4016 \\
-Na Região \textbf{B} a Média < Moda = Mediana \\
-com skew = 0,1119 e kurt = -0,1835 \\
+\\
+\\
+\noindent
+A mediana pode ser obtida pela frequencia acumulativa quando esta é igual a 50\%, ou seja, $F_i(Mediana)=0,5$ \\
+\\
+Linearização mediana \textbf{TEE}\\
+\\
+\begin{minipage}[l]{0pt}
+\begin{tabular}{l}
+Regiao \textbf{A}:\\
+0.2 $\implies$ 12.5 \\
+0.5333 $\implies$ 17.5 \\
+$\therefore$\\
+Midiana A = \\
+12.5 + 0.9 x (17.5-12.5) = 17 \\
+com: \\
+skew = -0,1051 e kurt = -0,4016 \\
+\end{tabular}
+\end{minipage} \hspace{10cm}
+\begin{minipage}[l]{0pt}
+\begin{tabular}{l}
+Regiao \textbf{B}: \\
+0.3917 $\implies$ 17.5 \\
+0.7333 $\implies$ 22.5 \\
+$\therefore$\\
+Midiana B = \\
+17.5 + 0.317 x (22.5-17.5) = 19.085 \\
+com : \\
+skew = 0,1119 e kurt = -0,1835 \\
+\end{tabular}
+\end{minipage}\\
+\\
 \\
 \noindent
 Na prática, considera-se que a qualidade da aproximação é suficientemente boa quando $n \geqslant 30$.  \\
@@ -221,45 +248,7 @@ $$\left\lbrace\begin{array}{c}
 \\
 $\bar{y}_{A_0}$ = 6,6111 \qquad $\bar{y}_{B_0}$ = 7,5111 \\
 $\delta_A$ = 2,3112 \qquad $\delta_B$ = 2,5140 \\
-
-\noindent
-Nas tabelas acima a mediana e a moda são estimativas aproximadas, apenas nos da uma dica na qual em que classe pertence. \\
-A mediana pode ser obtida pela frequencia acumulativa quando esta é igual a 50\%, ou seja, $F_i(Mediana)=0,5$ \\
-A Moda mais facilmente identificada pelo seu pico maximo na lista de amostras.\\
-\\ 
-Linearização mediana \textbf{TEE}\\
-Regiao \textbf{A}:\\
-0.2 $\implies$ 12.5 \\
-0.5333 $\implies$ 17.5 \\
-$\therefore$\\
-Midiana A = 12.5 + 0.9 x (17.5-12.5) = 17 \\
-Regiao \textbf{B}: \\
-0.3917 $\implies$ 17.5 \\
-0.7333 $\implies$ 22.5 \\
-$\therefore$\\
-Midiana B = 17.5 + 0.317 x (22.5-17.5) = 19.085 \\
 \\
-Linearização mediana \textbf{REE}\\
-Regiao \textbf{B}:\\
- $\implies$  \\
- $\implies$  \\
-$\therefore$\\
-Midiana A = +  x (  -  ) =  \\
-Regiao \textbf{B}: \\
- $\implies$  \\
- $\implies$ \\
-$\therefore$
-Midiana B = + x ( - ) =  \\
-
-
-
-
-
-
-
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \section{Metodologia Estatística}\label{Metodos}
@@ -315,7 +304,7 @@ $\therefore$
 \\
 $IC_{97\%}(\hat{P_A}-\hat{P_B})=\left[ \; (\hat{p_A}-\hat{p_B}) \:-\: 0,3624 \: ; \: (\hat{p_A}-\hat{p_B}) \:+\: 0,3624 \; \right]$ \\
 \\
-A Diferença de proporção tem um erro de 36,24\%. \\
+A Diferença de proporçôes é 36,24\%. \\
 \subsection{Verificar diferenças entre as regiões}
 \noindent
 Testar se a região (REG) tem um efeito estatisticamente significativo sobre TEE e NEE ao nível de diferença de médias. Considrere uma significância à sua escolha inferior ou igual a 5\%. Use o critério do valor de prova para fundamentar a decisão.\\
@@ -363,6 +352,7 @@ fazer tabela só com resultados\\
 \section{Conclusões}\label{Conclusão}
 A Destribuição normal tem a Média = Mediana = Moda, devido a ter uma destribuição simetrica, quando estamos a analizar valores discretos isto não acontece devido a não ser simetrico podendo ter varios casos diferentes, e quanto menor o numero de amostras da população maior a dificuldade de se poder inferir e estimar valores.
 
+Falar da skew e curt.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -2,9 +2,9 @@
 \babel@toc {portuguese}{}
 \contentsline {section}{\numberline {.1}Introdução}{1}%
 \contentsline {section}{\numberline {.2}O conjunto de dados}{1}%
-\contentsline {section}{\numberline {.3}Metodologia Estatística}{5}%
-\contentsline {subsection}{\numberline {.3.1}Indice de Confiançã tempo médio TEE}{5}%
-\contentsline {subsection}{\numberline {.3.2}Verificar diferença de valores num intervalo}{5}%
-\contentsline {subsection}{\numberline {.3.3}Verificar diferenças entre as regiões}{6}%
-\contentsline {section}{\numberline {.4}Resultados e interpretação}{7}%
-\contentsline {section}{\numberline {.5}Conclusões}{7}%
+\contentsline {section}{\numberline {.3}Metodologia Estatística}{4}%
+\contentsline {subsection}{\numberline {.3.1}Indice de Confiançã tempo médio TEE}{4}%
+\contentsline {subsection}{\numberline {.3.2}Verificar diferença de valores num intervalo}{4}%
+\contentsline {subsection}{\numberline {.3.3}Verificar diferenças entre as regiões}{5}%
+\contentsline {section}{\numberline {.4}Resultados e interpretação}{6}%
+\contentsline {section}{\numberline {.5}Conclusões}{6}%

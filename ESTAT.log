@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2019.12.17)  21 DEC 2019 15:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2019.12.17)  22 DEC 2019 17:00
 entering extended mode
 **./ESTAT.tex
 (ESTAT.tex
@@ -2076,266 +2076,291 @@ Overfull \hbox (71.86174pt too wide) in paragraph at lines 102--103
  []
 
 
-Overfull \hbox (28.40784pt too wide) detected at line 121
+Overfull \hbox (166.4272pt too wide) in paragraph at lines 116--126
+[][] 
+ []
+
+
+Overfull \hbox (184.52362pt too wide) in paragraph at lines 128--138
+[][] 
+ []
+
+
+Overfull \hbox (28.40784pt too wide) detected at line 148
 []
  []
 
 
-Overfull \hbox (119.32204pt too wide) detected at line 125
+Overfull \hbox (119.32204pt too wide) detected at line 152
 [] \OT1/ztmcm/m/n/12 = [] \OMS/ztmcm/m/n/12  \OML/ztmcm/m/it/12 N[]\OT1/ztmcm
 /m/n/12 ; [][]
  []
 
 
-Overfull \hbox (258.75786pt too wide) in paragraph at lines 140--173
+Overfull \hbox (258.75786pt too wide) in paragraph at lines 167--200
 [][] 
  []
 
 <./image/NEE.png, id=45, 566.115pt x 255.95625pt>
 File: ./image/NEE.png Graphic file (type png)
 <use ./image/NEE.png>
-Package pdftex.def Info: ./image/NEE.png  used on input line 199.
+Package pdftex.def Info: ./image/NEE.png  used on input line 226.
 (pdftex.def)             Requested size: 283.05681pt x 127.9778pt.
 
-Overfull \hbox (71.48534pt too wide) in paragraph at lines 199--200
+Overfull \hbox (71.48534pt too wide) in paragraph at lines 226--227
  [][] 
  []
 
 
-Overfull \hbox (28.40784pt too wide) detected at line 215
+Overfull \hbox (28.40784pt too wide) detected at line 242
 []
  []
 
 
-Overfull \hbox (116.89789pt too wide) detected at line 219
+Overfull \hbox (116.89789pt too wide) detected at line 246
 [] \OT1/ztmcm/m/n/12 = [] \OMS/ztmcm/m/n/12  \OML/ztmcm/m/it/12 N[]\OT1/ztmcm
 /m/n/12 ; [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--224
+Underfull \hbox (badness 10000) in paragraph at lines 36--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--224
+Underfull \hbox (badness 10000) in paragraph at lines 36--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--224
+Underfull \hbox (badness 10000) in paragraph at lines 36--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--224
+Underfull \hbox (badness 10000) in paragraph at lines 36--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--224
+Underfull \hbox (badness 10000) in paragraph at lines 36--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--224
+Underfull \hbox (badness 10000) in paragraph at lines 36--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--224
+Underfull \hbox (badness 10000) in paragraph at lines 36--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--224
+Underfull \hbox (badness 10000) in paragraph at lines 36--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--224
+Underfull \hbox (badness 10000) in paragraph at lines 36--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--224
-
- []
-
-[1] [2 <./image/TEE.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 225--253
+Underfull \hbox (badness 10000) in paragraph at lines 36--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--253
+Underfull \hbox (badness 10000) in paragraph at lines 36--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--253
+Underfull \hbox (badness 10000) in paragraph at lines 36--253
 
  []
 
-[3 <./image/NEE.png (PNG copy)>] [4]
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--253
+
+ []
+
+[1] [2 <./image/TEE.png (PNG copy)>] [3 <./image/NEE.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 267.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 256.
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--280
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--280
+Underfull \hbox (badness 10000) in paragraph at lines 257--269
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--280
+Underfull \hbox (badness 10000) in paragraph at lines 257--269
 
  []
 
 
-Overfull \hbox (28.40784pt too wide) detected at line 292
+Underfull \hbox (badness 10000) in paragraph at lines 257--269
+
+ []
+
+
+Overfull \hbox (28.40784pt too wide) detected at line 281
 []
  []
 
 
-Overfull \hbox (116.89789pt too wide) detected at line 296
+Overfull \hbox (116.89789pt too wide) detected at line 285
 [] \OT1/ztmcm/m/n/12 = [] \OMS/ztmcm/m/n/12  \OML/ztmcm/m/it/12 N[]\OT1/ztmcm
 /m/n/12 ; [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--319
+Underfull \hbox (badness 10000) in paragraph at lines 270--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--319
+Underfull \hbox (badness 10000) in paragraph at lines 270--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--319
+Underfull \hbox (badness 10000) in paragraph at lines 270--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--319
+Underfull \hbox (badness 10000) in paragraph at lines 270--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--319
+Underfull \hbox (badness 10000) in paragraph at lines 270--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--319
+Underfull \hbox (badness 10000) in paragraph at lines 270--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--319
+Underfull \hbox (badness 10000) in paragraph at lines 270--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--319
+Underfull \hbox (badness 10000) in paragraph at lines 270--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--319
+Underfull \hbox (badness 10000) in paragraph at lines 270--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--319
+Underfull \hbox (badness 10000) in paragraph at lines 270--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--319
+Underfull \hbox (badness 10000) in paragraph at lines 270--308
 
  []
 
-[5]
-Overfull \hbox (115.62491pt too wide) detected at line 328
+[4]
+Overfull \hbox (115.62491pt too wide) detected at line 317
 []
  []
 
 
-Overfull \hbox (54.39821pt too wide) detected at line 337
+Overfull \hbox (54.39821pt too wide) detected at line 326
 []
  []
 
 
-Overfull \hbox (146.69557pt too wide) detected at line 341
+Overfull \hbox (146.69557pt too wide) detected at line 330
 [] \OMS/ztmcm/m/n/12   []  \U/msa/m/n/12 v \OML/ztmcm/m/it/12 N []
  []
 
 
-Overfull \hbox (316.37833pt too wide) detected at line 347
+Overfull \hbox (316.37833pt too wide) detected at line 336
 \OML/ztmcm/m/it/12 z[]  \OT1/ztmcm/m/n/12 =  [] \OML/ztmcm/m/it/12 RC[]  \OT1/z
 tmcm/m/n/12 =  []  \OML/ztmcm/m/it/12 pvalue  \OT1/ztmcm/m/n/12 =  \OML/ztmcm/m
 /it/12 P\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 Z < z[]\OT1/ztmcm/m/n/12 )
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--358
+Underfull \hbox (badness 10000) in paragraph at lines 309--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--358
+Underfull \hbox (badness 10000) in paragraph at lines 309--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--358
+Underfull \hbox (badness 10000) in paragraph at lines 309--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--358
+Underfull \hbox (badness 10000) in paragraph at lines 309--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--358
+Underfull \hbox (badness 10000) in paragraph at lines 309--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--358
+Underfull \hbox (badness 10000) in paragraph at lines 309--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--358
+Underfull \hbox (badness 10000) in paragraph at lines 309--347
 
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
 
  []
 
-[7] (ESTAT.lof)
+[6] (ESTAT.lof)
 \tf@lof=\write7
 \openout7 = `ESTAT.lof'.
 
 
 No file ESTAT.bbl.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 380.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 370.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 380.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 370.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 380.
-[8
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 370.
+[7
 
 ] (ESTAT.aux (include/CAPA.aux))
 
@@ -2343,11 +2368,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 56533 strings out of 492484
- 1199649 string characters out of 3127542
- 1518816 words of memory out of 3000000
+ 56530 strings out of 492484
+ 1199622 string characters out of 3127542
+ 1519816 words of memory out of 3000000
  59869 multiletter control sequences out of 15000+200000
- 629081 words of font info for 274 fonts, out of 3000000 for 9000
+ 628951 words of font info for 272 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,11n,85p,1473b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/home/sergio/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/sergi
@@ -2361,9 +2386,9 @@ tex/texmfs/install/fonts/type1/urw/symbol/usyr.pfb></home/sergio/.miktex/texmfs
 /install/fonts/type1/urw/times/utmb8a.pfb></home/sergio/.miktex/texmfs/install/
 fonts/type1/urw/times/utmr8a.pfb></home/sergio/.miktex/texmfs/install/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on ESTAT.pdf (11 pages, 219243 bytes).
+Output written on ESTAT.pdf (10 pages, 218480 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
+ 108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  53884 words of extra memory for PDF output out of 61914 (max. 10000000)
 
