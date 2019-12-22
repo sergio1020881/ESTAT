@@ -22,4 +22,6 @@ clean:
 	-rm -rf *.out
 	-rm -rf *.lof
 	-rm -rf *.md
+	-rm -rf *.fls
+	-rm -rf *.ps
 
