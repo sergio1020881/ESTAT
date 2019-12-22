@@ -6,5 +6,6 @@
 \contentsline {subsection}{\numberline {.3.1}Indice de Confiançã tempo médio TEE}{4}%
 \contentsline {subsection}{\numberline {.3.2}Verificar diferença de valores num intervalo}{4}%
 \contentsline {subsection}{\numberline {.3.3}Verificar diferenças entre as regiões}{5}%
-\contentsline {section}{\numberline {.4}Resultados e interpretação}{6}%
-\contentsline {section}{\numberline {.5}Conclusões}{6}%
+\contentsline {subsection}{\numberline {.3.4}Ajuste distribuição teórica à Empirica}{6}%
+\contentsline {section}{\numberline {.4}Resultados e interpretação}{7}%
+\contentsline {section}{\numberline {.5}Conclusões}{7}%
