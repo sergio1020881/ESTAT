@@ -9,3 +9,7 @@
 \contentsline {subsection}{\numberline {.3.4}Ajuste distribuição teórica à Empirica}{6}%
 \contentsline {section}{\numberline {.4}Resultados e interpretação}{7}%
 \contentsline {section}{\numberline {.5}Conclusões}{7}%
+\babel@toc {portuguese}{}
+\babel@toc {portuguese}{}
+\babel@toc {portuguese}{}
+\babel@toc {portuguese}{}
