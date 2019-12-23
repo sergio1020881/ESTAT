@@ -1,3 +1,12 @@
+LOCATION:
+https://github.com/sergio1020881/ESTAT
+https://github.com/sergio1020881/ESTAT/blob/master/TPC/ESTAT1920 TP POR_1020881.xlsx
+https://github.com/sergio1020881/ESTAT/blob/master/ESTAT_SERGIO1020881.pdf
+https://github.com/sergio1020881/ESTAT/blob/master/ESTAT_SERGIO1020881.tex
+
+
+
+
 Este trabalho consiste no estudo de Estatistica das Entregas Expresso em  duas regioes, as variaveis em estudo é o tempo de demora das entregas e também quantas entregas são enregues num determinado tempo ou unidade de tempo [u.t,]. Na primeira situação foram retiradas 120 amostras e 90 nas quantidades entregues num intervalo de tempo [u.t].
 
 Pretende-se fazer um estudo destas duas variaveis aleatorias de forma a responder a questoes empostas e tomar decisoes, recorresndo aos metodos expostos.
@@ -109,9 +118,9 @@ grandes amostras, se n maior ou igaula 30
 
 Use the following commands-
 
-    git add -A to add all files new files, changes and removed files.
-    git commit -m  "Your message" to save the changes done in the files.
-    git push -u origin master to send your committed changes to a remote repository, where the local branch is named master to the remote named origin
+git add -A to add all files new files, changes and removed files.
+git commit -m  "Your message" to save the changes done in the files.
+git push -u origin master to send your committed changes to a remote repository, where the local branch is named master to the remote named origin
 
 
 

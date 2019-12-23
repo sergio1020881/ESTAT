@@ -1,7 +1,6 @@
 \documentclass[12pt]{report}
 %\documentclass[titlepage, a4paper, 12pt, reqno, openany]{report}
 %\documentclass[12pt]{article}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%encoding%%%%%%
 \usepackage[T1]{fontenc}
@@ -18,11 +17,9 @@
 \usepackage{float}
 \usepackage{amsmath}
 \usepackage{amssymb}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{babel}
 \usepackage{array}
-\usepackage{supertabular}
 \usepackage{bm}
 \usepackage{booktabs}
 \usepackage{boxedminipage}
@@ -57,14 +54,6 @@
 \usepackage[usenames]{color} %permite letras coloridas
 \usepackage{verbatim}
 \usepackage{wrapfig}
-%%%%%recent%%%%%
-\usepackage{xypic}
-\usepackage{cancel}
-\usepackage[fleqn]{mathtools}
-\usepackage{pdfpages}
-\usepackage{pdflscape}
-\usepackage{todonotes}
-\usepackage{siunitx}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{enumitem}
 \begin{comment}
@@ -83,7 +72,6 @@
 \setlist[enumitem,11]{label=(\alph*)}
 \setlist[enumitem,12]{label=(\arabic*)}
 \end{comment}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{enumerate}
 \begin{comment}
@@ -92,7 +80,6 @@
 \renewcommand{\labelitemiii}{$\diamond$}
 \renewcommand{\labelitemiv}{$\ast$}
 \end{comment}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{tikz}
 \usepackage{circuitikz}
@@ -129,38 +116,39 @@
 \tikzstyle{CIRCLE_1}=[draw,shape=circle,inner sep=2pt,text centered, node distance=3.5cm]
 \tikzstyle{CIRCLE_2}=[draw,shape=circle,inner sep=4pt,text centered, node distance=3.cm]
 \end{comment}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Not Adviced%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\usepackage{showidx} %for troubleshooting index
 %\usepackage{showkeys} %for troubleshooting \label \ref
-%\usepackage{pxfonts}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%claching Package%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\usepackage[usenames,dvipsnames,svgnames,table]{xcolor} %\usepackage[usenames]{color} %permite letras coloridas
 %\usepackage{pgfplots}
-%\usepackage{natbib}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Not Installed Yet%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Com Dependencias%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{glossaries}
-\usepackage[version=3]{mhchem}
-
+%\usepackage{amscls}
+%\usepackage{xypic}
+%\usepackage{fullpage}
+%\usepackage{cancel}
+%\usepackage{enumitem}
+%\usepackage{glossaries}
+%\usepackage{itemize}
+%\usepackage{mathtools}
+%\usepackage[fleqn]{mathtools}
+%\usepackage[version=3]{mhchem}
+%\usepackage{named}
+%\usepackage{natbib}
+%\usepackage{pxfonts}
+%\usepackage{pdfpages}
+%\usepackage{todonotes}
+%\usepackage{siunitx}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %alguns pacotes nao sao reconhecidos, ter atencao quais usar em differents computadores, tambem alguns pacotes entram em conflito.
-\newtheorem{theorem}{Theorem}
-\newtheorem{lemma}{Lemma}
-\newtheorem{definition}{Defini\c{c}\~{a}o}
-\newtheorem{notation}{Notation}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Not Working%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\usepackage{itemize}
-%\usepackage{named}
-%\usepackage{amscls}
-%\usepackage{fullpage}
-
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{lemma}{Lemma}
+%\newtheorem{definition}{Defini\c{c}\~{a}o}
+%\newtheorem{notation}{Notation}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \bibliographystyle{babplain}
 \makeindex
 \begin{document}
