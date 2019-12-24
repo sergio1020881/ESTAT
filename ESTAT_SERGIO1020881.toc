@@ -7,5 +7,6 @@
 \contentsline {subsection}{\numberline {.3.2}Verificar diferença de valores num intervalo}{4}%
 \contentsline {subsection}{\numberline {.3.3}Verificar diferenças entre as regiões}{5}%
 \contentsline {subsection}{\numberline {.3.4}Ajuste distribuição teórica à Empirica}{6}%
+\contentsline {subsection}{\numberline {.3.5}Relação Erro Tipo 1 e 2 da alinea 3.3}{6}%
 \contentsline {section}{\numberline {.4}Resultados e interpretação}{7}%
 \contentsline {section}{\numberline {.5}Conclusões}{7}%
