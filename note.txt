@@ -5,6 +5,24 @@ https://github.com/sergio1020881/ESTAT/blob/master/ESTAT_SERGIO1020881.pdf
 https://github.com/sergio1020881/ESTAT/blob/master/ESTAT_SERGIO1020881.tex
 
 
+sudo apt-get install wxmaxima
+sudo apt-get install gnuplot
+
+
+
+plot2d ( x^2 - 1, [x, -3, 3], [box, false], grid2d,
+      [yx_ratio, 1], [axes, solid], [xtics, -2, 4, 2],
+      [ytics, 2, 2, 6], [label, ["x", 2.9, -0.3],
+      ["x^2-1", 0.1, 8]], [title, "A parabola"])$
+
+
+(%i1) plot2d (exp(3*s), [s, -2, 2], logy)$
+
+
+TEE_A(x):=1/sqrt(2*%pi*Q_A)*%e^-(1/2*((x-M_A)/Q_A)^2);
+wxplot2d([TEE_A(x),TEE_B(x)],[x,1,45],[y,0,0.2],grid2d);
+
+
 
 
 Este trabalho consiste no estudo de Estatistica das Entregas Expresso em  duas regioes, as variaveis em estudo é o tempo de demora das entregas e também quantas entregas são enregues num determinado tempo ou unidade de tempo [u.t,]. Na primeira situação foram retiradas 120 amostras e 90 nas quantidades entregues num intervalo de tempo [u.t].
