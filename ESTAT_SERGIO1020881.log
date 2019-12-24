@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2019.12.17)  24 DEC 2019 19:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2019.12.17)  24 DEC 2019 21:05
 entering extended mode
 **./ESTAT_SERGIO1020881.tex
 (ESTAT_SERGIO1020881.tex
@@ -2416,15 +2416,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 422--446
 \tf@lof=\write6
 \openout6 = `ESTAT_SERGIO1020881.lof'.
 
+ (ESTAT_SERGIO1020881.bbl [9
 
-No file ESTAT_SERGIO1020881.bbl.
+]
+babelbib: Using the BibTeX style's default font for `name'.
+babelbib: Using the BibTeX style's default font for `lastname'.
+babelbib: Using the BibTeX style's default font for `title'.
+babelbib: Using the BibTeX style's default font for `jtitle'.
+babelbib: Using the BibTeX style's default font for `etal'.
+babelbib: Using the BibTeX style's default font for `journal'.
+babelbib: Using the BibTeX style's default font for `volume'.
+babelbib: Using the BibTeX style's default font for `ISBN'.
+babelbib: Using the BibTeX style's default font for `ISSN'.
+babelbib: Using the BibTeX style's default font for `url'.
+babelbib: Using the BibTeX style's default font for `numeral'.
+)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 508.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 508.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 508.
-[9
+ [10
 
 ] (ESTAT_SERGIO1020881.aux (include/CAPA.aux))
 
@@ -2432,11 +2445,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 54094 strings out of 492484
- 1172523 string characters out of 3127542
+ 54109 strings out of 492484
+ 1172735 string characters out of 3127542
  1445119 words of memory out of 3000000
- 57455 multiletter control sequences out of 15000+200000
- 627886 words of font info for 273 fonts, out of 3000000 for 9000
+ 57460 multiletter control sequences out of 15000+200000
+ 630048 words of font info for 278 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,12n,85p,1057b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/home/sergio/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/sergi
@@ -2451,9 +2464,9 @@ ome/sergio/.miktex/texmfs/install/fonts/type1/urw/symbol/usyr.pfb></home/sergio
 exmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/sergio/.miktex/texmfs/ins
 tall/fonts/type1/urw/times/utmr8a.pfb></home/sergio/.miktex/texmfs/install/font
 s/type1/urw/times/utmri8a.pfb>
-Output written on ESTAT_SERGIO1020881.pdf (12 pages, 274686 bytes).
+Output written on ESTAT_SERGIO1020881.pdf (13 pages, 276219 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
+ 124 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 53894 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 57990 words of extra memory for PDF output out of 61914 (max. 10000000)
 

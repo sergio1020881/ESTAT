@@ -10,3 +10,7 @@
 \contentsline {subsection}{\numberline {.3.5}Relação Erro Tipo 1 e 2 da alinea 3.3}{6}%
 \contentsline {section}{\numberline {.4}Resultados e interpretação}{8}%
 \contentsline {section}{\numberline {.5}Conclusões}{8}%
+\babel@toc {portuguese}{}
+\babel@toc {portuguese}{}
+\babel@toc {portuguese}{}
+\babel@toc {portuguese}{}
