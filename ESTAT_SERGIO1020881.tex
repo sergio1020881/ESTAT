@@ -317,7 +317,7 @@ $IC_{97\%}(\hat{P_A}-\hat{P_B})=\left[ \; (\hat{p_A}-\hat{p_B}) \:-\: 0,3624 \: 
 A Diferença de proporçôes é 36,24\%. \\
 \subsection{Verificar diferenças entre as regiões}
 \noindent
-Testar se a região (REG) tem um efeito estatisticamente significativo sobre TEE e NEE ao nível de diferença de médias. Considrere uma significância à sua escolha inferior ou igual a 5\%. Use o critério do valor de prova para fundamentar a decisão.\\
+Testar se a região (REG) tem um efeito estatisticamente significativo sobre TEE e NEE ao nível de diferença de médias. Considrerando uma significância de 5\%. Use o critério do valor de prova para fundamentar a decisão.\\
 \\
 \begin{minipage}[l]{0pt}
 $$\left\lbrace\begin{array}{l}
@@ -338,21 +338,20 @@ $$\left\lbrace\begin{array}{c}
 \end{minipage}
 \hspace{3cm} $\Longrightarrow$ \hspace{1cm}
 \begin{minipage}[l]{0pt}
-\[\bar{X_A}-\bar{X_B} \quad \backsim N \left( 0\:,\: \frac{\delta_A^2}{n_A}+\frac{\delta_B^2}{n_B} \right) \]
+\[\bar{X}=\bar{X}_A-\bar{X}_B \quad \backsim N \left( 0\:,\: \frac{\delta_A^2}{n_A}+\frac{\delta_B^2}{n_B} \right) \quad ; \quad \frac{\delta_A^2}{n_A}+\frac{\delta_B^2}{n_B}\;\cong0.6558 \]
 \end{minipage}\\
 \\
-$\bar{x}_A-\bar{x_B}=-1.5$ \\
 \\
-$ \frac{\delta_A^2}{n_A}+\frac{\delta_B^2}{n_B} $ \\
+$P(\bar{X}_{H_0} \leqslant C)=0.05 \quad \implies \quad RC_X\left] -\infty \:,\: -1.332 \right] \qquad \bar{x}_A-\bar{x}_B=-1.5 \in RC_X $ \\
 \\
 \begin{minipage}[l]{0pt}
-\[  z_0\:=\: \frac{\bar{x}_A-\bar{x_B}}{\sqrt{\frac{\delta_A^2}{n_A}+\frac{\delta_B^2}{n_B}}} \qquad
-	RC_z \:=\: \left] -\infty,-z_{1-\alpha} \right]  \qquad
-	pvalue \:=\: P(Z<z_0) \]
+\[  z_0\:=\: \frac{\bar{x}_A-\bar{x}_B}{\sqrt{\frac{\delta_A^2}{n_A}+\frac{\delta_B^2}{n_B}}}\:\cong\: -1.8523 \qquad
+	RC_z \:=\: \left] -\infty \:,\: -1.6448 \right]  \qquad
+	pvalue \:=\: P(Z<z_0) \:=\: 0.032 \]
 \end{minipage}\\
 \\
 \\
-\hspace*{5cm} \underline{Condição REE:}\\
+\hspace*{5cm} \underline{Condição NEE:}\\
 \begin{minipage}[l]{0pt}
 $$\left\lbrace\begin{array}{c}
 \mu \;=\; 0 \\
@@ -361,34 +360,31 @@ $$\left\lbrace\begin{array}{c}
 \end{minipage}
 \hspace{3cm} $\Longrightarrow$ \hspace{1cm}
 \begin{minipage}[l]{0pt}
-\[\bar{Y_A}-\bar{Y_B} \quad \backsim N \left( 0\:,\: \frac{\delta_A^2}{n_A}+\frac{\delta_B^2}{n_B} \right) \]
+\[ \bar{Y}=\bar{Y_A}-\bar{Y_B} \quad \backsim N \left( 0\:,\: \frac{\delta_A^2}{n_A}+\frac{\delta_B^2}{n_B} \right) \quad ; \quad \frac{\delta_A^2}{n_A}+\frac{\delta_B^2}{n_B} \; \cong 0.1296 \]
 \end{minipage}\\
 \\
-$ \bar{y_A}-\bar{y_B}=-0.9$\\
 \\
-$ \frac{\delta_A^2}{n_A}+\frac{\delta_B^2}{n_B} $\\
-%\hspace{3cm}
+$P(\bar{Y}_{H_0} \leqslant C)=0.05 \quad \implies \quad RC_Y\left] -\infty \:,\: -0.5921 \right] \qquad \bar{y}_A-\bar{y}_B=-0.9 \in RC_Y $ \\
+\\
 \begin{minipage}[l]{0pt}
-\[  z_0\:=\: \frac{\bar{y}_A-\bar{y_B}}{\sqrt{\frac{\delta_A^2}{n_A}+\frac{\delta_B^2}{n_B}}} \qquad
- 	RC_z=]-\infty,-z_{1-\alpha}] \qquad
- 	pvalue=P(Z<z_0) \]
+\[  z_0\:=\: \frac{\bar{y}_A-\bar{y}_B}{\sqrt{\frac{\delta_A^2}{n_A}+\frac{\delta_B^2}{n_B}}}\:\cong\: -2.5 \qquad
+	RC_z \:=\: \left] -\infty \:,\: -1.6448 \right]  \qquad
+	pvalue \:=\: P(Z<z_0) \:=\: 0.0062 \]
 \end{minipage}\\
 \\
-
-
-
-
-
-
-
-
-
-
+\\
+A Hipotese de proximdade entre as regiões é falsa, ambos os criterios estão dentro da região de rejeição logo a hipotese imposta é falsa.
+O valor de prova também reforça a ideia pois a percentagem de favorecimento é quase nulo.\\
+\\
 \newpage
 \subsection{Ajuste distribuição teórica à Empirica}
 Ajuste uma distribuição teórica à distribuição empírica das variaveis TEE na região A (considerando as classes definidas) e NEE na região B. Verifique a qualidade do ajuste ao nível de 5\%.\\
 \\
+k-numero de classes \hspace{1cm}; m-numero de parâmetros
+\\
+\\
 \hspace*{5cm} \underline{TEE Região A:} \\
+k=6 , m=2 e $\alpha$=0.05 \\
 \begin{minipage}[l]{0pt}
 $$\left\lbrace\begin{array}{l}
 H_0: X \backsim N (20.0417\;,\;6.4494^2) \\
@@ -398,9 +394,14 @@ H_1: X \nsim N (20.0417\;,\;6.4494^2)
 \end{minipage}\\
 \\
 \\
-$q_0=\sum_{i=1}^n \frac{(n_i-e_i)^2}{e_i} \;\backsim\; \chi_{(k-p-1)}^2$ \\
+$q_0=\sum_{i=1}^n \frac{(n_i-e_i)^2}{e_i} \;\backsim\; \chi_{(k-m-1)}^2$ \\
+\\
+$RC_{\chi^2}=\left[\; InvChiCD(0.05,3) \:,\: +\infty \; \right] \quad \rightarrow \quad RC=\left[\; 7.8147 \:,\: +\infty \; \right]$ \\
+\\
+$q_0=7.2234$ < 7.8147 \\
 \\
 \hspace*{5cm} \underline{NEE Região B:} \\
+k=8 , m=2 e $\alpha$=0.05 \\
 \begin{minipage}[l]{0pt}
 $$\left\lbrace\begin{array}{l}
 H_0: X \backsim N (7.5111\;,\;2.5140^2) \\
@@ -410,7 +411,16 @@ H_1: X \nsim N (7.5111\;,\;2.5140^2)
 \end{minipage}\\
 \\
 \\
-$q_0=\sum_{i=1}^n \frac{(n_i-e_i)^2}{e_i} \;\backsim\; \chi_{(k-p-1)}^2$ \\
+$q_0=\sum_{i=1}^n \frac{(n_i-e_i)^2}{e_i} \;\backsim\; \chi_{(k-m-1)}^2$ \\
+\\
+$RC_{\chi^2}=\left[ \: InvChiCD(0.05,5) \:,\: +\infty \; \right] \quad \rightarrow \quad RC=\left[ \: 11.0705 \:,\: +\infty \; \right]$ \\
+\\
+$q_0=8.5532$ < 11.0705 \\
+\\
+Ambas as condições propostas são aceitaveis como distribuições com um grau de confiança de 95\%, pois estão fora da região de rejeição.
+\subsection{Relação Erro Tipo 1 e 2 da alinea 3.3}
+\noindent
+Apresente um gráfico expressando a relação entre o erro tipo I ($\alpha$) e a potência do teste (1-$\beta$), para valores hipotéticos das verdadeiras diferenças de médias calculadas anteriormente no ponto 3.3.
 
 
 
@@ -420,18 +430,34 @@ $q_0=\sum_{i=1}^n \frac{(n_i-e_i)^2}{e_i} \;\backsim\; \chi_{(k-p-1)}^2$ \\
 
 
 
-\newpage
 
 
 
 
 \newpage
 \section{Resultados e interpretação}\label{Resultados}
-fazer tabela só com resultados\\
-\section{Conclusões}\label{Conclusão}
-A Destribuição normal tem a Média = Mediana = Moda, devido a ter uma destribuição simetrica, quando estamos a analizar valores discretos isto não acontece devido a não ser simetrico podendo ter varios casos diferentes, e quanto menor o numero de amostras da população maior a dificuldade de se poder inferir e estimar valores.
+A mediana é o ponto de equilibriu da destribuição nos informa o ponto na qual o pesso em ambos os lados é igual, em conjunto com a média e a moda nos pode dar mais informação sobre sua identidade, sobre sua calda e sua forma.
+Neste trabalho temos quatro destribuições Normais que diferem uma das outras, ou seja cada região tem um comprtamento que lhe é próprio.
 
-Falar da skew e curt.
+
+
+
+\section{Conclusões}\label{Conclusão}
+Este relatório foi feito recorrendo ao excell do libreoffice, em conjunto com a calculadora da Casio fx-9860GII, portanto todos os resultados não estão apresentados no excell devido aos calculos auxiliares tem sido feitos apart.
+
+A ortographia do relatorio pode ter erros, os exercicios propostos são muito abrangentes e o tempo definido curto para sua conclusão, sendo que podia ser muito mais elaborado e feito mais testes para ter um estudo mais aprofundado.
+Muitas das questões levam a ter dúvidas de forma a aprofundar a matéria, dando a sensação na qual não conseguimos obter uma completa percepção no seu todo, sendo possivel explorar varias ideias de enfrentar os problemas. 
+
+O relatório é um estudo aceca da esattistica mais ao redor da \textbf{Destribuição Normal} em que sua Média = Mediana = Moda, é simetrica, quando estamos a analizar valores discretos isto não acontece devido a não ser simetrico podendo ter varios casos diferentes, e quanto menor o numero de amostras da população maior a dificuldade de se poder inferir e estimar valores.
+
+Fazer o estudo de uma população para poder inferir seu comportamento através de tiros no escuro, ou seja, hipoteses tomadas como verdades e comparar com os resultados de forma a poder tirar uma decisão da sua preposicão.
+
+No caso do $\chi^2$ podermos averiguar qual o grau de proxidade da destribuição proposta para representar nossos dados, para podermos depois analizar o desconhecido pelo já adquirido, sempre com uma margem de incerteza.
+
+
+
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
