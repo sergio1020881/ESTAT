@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2019.12.17)  24 DEC 2019 18:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2019.12.17)  24 DEC 2019 19:57
 entering extended mode
 **./ESTAT_SERGIO1020881.tex
 (ESTAT_SERGIO1020881.tex
@@ -1689,7 +1689,7 @@ Writing index file ESTAT_SERGIO1020881.idx
 LaTeX Warning: Label `Tab:Resulatdos' multiply defined.
 
 
-LaTeX Warning: Label `TEE' multiply defined.
+LaTeX Warning: Label `TEEAB' multiply defined.
 
 )
 \openout1 = `ESTAT_SERGIO1020881.aux'.
@@ -2376,38 +2376,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 381--421
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 422--427
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 422--427
-
- []
-
 <./image/TEE_NORM_DIST.png, id=69, 602.25pt x 401.5pt>
 File: ./image/TEE_NORM_DIST.png Graphic file (type png)
 <use ./image/TEE_NORM_DIST.png>
 Package pdftex.def Info: ./image/TEE_NORM_DIST.png  used on input line 431.
-(pdftex.def)             Requested size: 301.12425pt x 200.7495pt.
+(pdftex.def)             Requested size: 240.89572pt x 160.59715pt.
 
-Overfull \hbox (89.55278pt too wide) in paragraph at lines 431--432
+Overfull \hbox (2.87581pt too wide) in paragraph at lines 431--432
  [][] 
  []
 
-[6] [7 <./image/TEE_NORM_DIST.png>] [8] (ESTAT_SERGIO1020881.lof)
+<./image/NEE_NORM_DIST.png, id=70, 602.25pt x 401.5pt>
+File: ./image/NEE_NORM_DIST.png Graphic file (type png)
+<use ./image/NEE_NORM_DIST.png>
+Package pdftex.def Info: ./image/NEE_NORM_DIST.png  used on input line 440.
+(pdftex.def)             Requested size: 240.89572pt x 160.59715pt.
+
+Overfull \hbox (2.87581pt too wide) in paragraph at lines 440--441
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--446
+
+ []
+
+[6] [7 <./image/TEE_NORM_DIST.png> <./image/NEE_NORM_DIST.png>] [8]
+(ESTAT_SERGIO1020881.lof)
 \tf@lof=\write6
 \openout6 = `ESTAT_SERGIO1020881.lof'.
 
 
 No file ESTAT_SERGIO1020881.bbl.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 499.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 508.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 499.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 508.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 499.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 508.
 [9
 
 ] (ESTAT_SERGIO1020881.aux (include/CAPA.aux))
@@ -2416,13 +2432,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 54088 strings out of 492484
- 1172362 string characters out of 3127542
- 1445111 words of memory out of 3000000
- 57450 multiletter control sequences out of 15000+200000
+ 54094 strings out of 492484
+ 1172523 string characters out of 3127542
+ 1445119 words of memory out of 3000000
+ 57455 multiletter control sequences out of 15000+200000
  627886 words of font info for 273 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,12n,85p,1057b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,12n,85p,1057b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/home/sergio/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/sergi
 o/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/sergi
 o/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/sergi
@@ -2435,9 +2451,9 @@ ome/sergio/.miktex/texmfs/install/fonts/type1/urw/symbol/usyr.pfb></home/sergio
 exmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/sergio/.miktex/texmfs/ins
 tall/fonts/type1/urw/times/utmr8a.pfb></home/sergio/.miktex/texmfs/install/font
 s/type1/urw/times/utmri8a.pfb>
-Output written on ESTAT_SERGIO1020881.pdf (12 pages, 251997 bytes).
+Output written on ESTAT_SERGIO1020881.pdf (12 pages, 274686 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
+ 120 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 53889 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 53894 words of extra memory for PDF output out of 61914 (max. 10000000)
 
