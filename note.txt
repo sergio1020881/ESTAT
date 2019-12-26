@@ -140,8 +140,14 @@ git add -A to add all files new files, changes and removed files.
 git commit -m  "Your message" to save the changes done in the files.
 git push -u origin master to send your committed changes to a remote repository, where the local branch is named master to the remote named origin
 
+$\bar{X_A}_{n|_{H_0}} \sim N(20.0417 \:,\: \frac{6.4494^2}{n})$ \\
+$C_A=$
 
+$\bar{X_B}_{n|_{H_0}} \sim N(21.5417 \:,\: \frac{6.0909^2}{n})$ \\
 
+$\bar{Y_A}_{n|_{H_0}} \sim N(6.6111 \:,\: \frac{  2.3112^2  }{n})$ \\
+
+$\bar{Y_B}_{n|_{H_0}} \sim N(7.5111 \:,\: \frac{2.5140^2}{n})$ \\
 
 
 
