@@ -18,7 +18,7 @@
 \usepackage{float}
 \usepackage{amsmath}
 \usepackage{amssymb}
-
+\usepackage{makeidx} %pra criar índice remissivo
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{babel}
 \usepackage{array}
@@ -38,7 +38,6 @@
 \usepackage{indentfirst}
 \usepackage{latexsym}
 \usepackage{listings}
-\usepackage{makeidx} %pra criar índice remissivo
 \usepackage{mathptmx}
 \usepackage{mathrsfs} %permite o uso de letras trabalhadas
 \usepackage{microtype}
@@ -64,6 +63,9 @@
 \usepackage{pdflscape}
 \usepackage{todonotes}
 \usepackage{siunitx}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{enumitem}
 \begin{comment}
@@ -144,8 +146,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Not Installed Yet%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Com Dependencias%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{glossaries}
-\usepackage[version=3]{mhchem}
+%\usepackage{glossaries}
+%\usepackage[version=3]{mhchem}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %alguns pacotes nao sao reconhecidos, ter atencao quais usar em differents computadores, tambem alguns pacotes entram em conflito.
@@ -161,7 +163,6 @@
 %\usepackage{fullpage}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\bibliographystyle{babplain}
 \makeindex
+\bibliographystyle{babplain}
 \begin{document}
