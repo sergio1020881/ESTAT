@@ -9,7 +9,7 @@ sudo apt-get install wxmaxima
 sudo apt-get install gnuplot
 
 
-
+~a~a^Aasss~a
 plot2d ( x^2 - 1, [x, -3, 3], [box, false], grid2d,
       [yx_ratio, 1], [axes, solid], [xtics, -2, 4, 2],
       [ytics, 2, 2, 6], [label, ["x", 2.9, -0.3],
